@@ -1,0 +1,38 @@
+body {
+		background-color: lightgray;
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.cards {
+		background-color: gray;
+		width: 600px;
+		height: 200px;
+		display: flex;
+		flex-direction: row;
+}
+.card {
+		width: 200px;
+		height: 100%;
+}
+.cardspace {
+		width: 50px;
+		height: 100%;
+}
+#card1 {
+		background-color: lightcoral;
+}
+#card2 {
+		background-color: lightgoldenrodyellow;
+}
+#card3 {
+		background-color: lightsalmon;
+}
