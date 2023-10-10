@@ -1,0 +1,46 @@
+body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		background-color: lightgray;
+}
+img {
+		width: 95%;
+		height: 95%;
+		border-radius: 10px;
+}
+.kartica {
+		width: 460px;
+		height: 612px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-color: rgb(150, 150, 150);
+		border-width: 3px;
+		border-style: solid;
+		border-radius: 10px;
+		background-color: rgb(190, 190, 190);
+		position: relative;
+}
+.text {
+		position: absolute;
+		top: 60%;
+		width: 93%;
+		height: 37%;
+		border-radius: 10px;
+		background-color: rgba(190, 190, 190, 0.6);
+
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		color: #444444;
+}
+h3 {
+		font-size: 30px;
+		margin: 10px;
+		margin-top: 25px;
+}
+p {
+		font-size: 20px;
+		margin: 0px;
+}
