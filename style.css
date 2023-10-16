@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    width: 30%;
+    height: 100%;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card p {
+    margin: 15px;
+}
+.circle {
+    background-color: skyblue;
+    width: 100%;
+    height: 140px;
+    clip-path: circle(140px at center 0);
+    display: flex;
+    justify-content: center;
+}
+.circle span {
+    font-size: 90px;
+    color: white;
+    margin-top: 0;
+}
+#jedan {
+    background-color: seagreen;
+}
+#dva {
+    background-color: chocolate;
+}
+#tri {
+    background-color: darkkhaki;
+}
+.post {
+    background-color: gainsboro;
+    width: 800px;
+    height: 1000px;
+}
+.post img {
+    width: 100%;
+}
+.name {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.name span {
+    color: black;
+    margin-left: 8px;
+    font-weight: bold;
+}
+.name img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.reactions {
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.reactions span {
+    margin-left: 10px;
+}
+.text h5 {
+    margin: 0;
+    margin-left: 15px;
+}
+.text p {
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 20px;
+}
