@@ -28,13 +28,10 @@ body {
 		width: 90px;
 		height: 30px;
 }
-#bright {
-		filter: brightness(100);
-}
 .buttons button:hover {
 		background-color: #32dcf1;
 }
 .buttons button:active {
-		background-color: #32dcf1;
-		border: 3px solid #52fcff;
+		background-color: #73edff;
+		border: 3px solid #32dcf1;
 }
