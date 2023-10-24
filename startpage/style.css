@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+	width: 100%;
+	height: 80px;
+	background-color: #ff4433;
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	box-shadow: 0 0 10px #330000;
+}
+.link {
+	height: 100%;
+	width: 200px;
+	background-color: #dd3322;
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.link:hover {
+	background-color: white;
+}
+.link:hover span {
+	color: black;
+}
+.home {
+	background-color: white;
+}
+span {
+	color: white;
+}
+#home {
+	color: black;
+}
+.start {
+	background-color: #ff4433;
+	height: 800px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: white;
+	font-size: 100px;
+}
+h3 {
+	color: white;
+	font-size: 30px;
+}
+button {
+	color: white;
+	background-color: black;
+	border: 0 solid black;
+	font-size: 20px;
+	width: 150px;
+	height: 70px;
+}
+button:hover {
+	background-color: white;
+	color: black;
+}
+.lorem1 {
+	width: 100%;
+	height: 400px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.lorem1text {
+	height: 300px;
+	width: 600px;
+}
+.lorem1text h4 {
+	color: #555555;
+}
+.lorem1text p {
+	color: #777777;
+}
+.lorem1image {
+	height: 300px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img {
+	height: 230px;
+	aspect-ratio: 1;
+}
+.lorem2 {
+	width: 100%;
+	height: 400px;
+	background-color: #eeeeee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.lorem2text {
+	height: 300px;
+	width: 600px;
+}
+.lorem2text h4 {
+	color: #555555;
+}
+.lorem2text p {
+	color: #777777;
+}
+.lorem2image {
+	height: 300px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img {
+	height: 230px;
+	aspect-ratio: 1;
+}
+.livelife {
+	width: 100%;
+	height: 150px;
+	background-color: #777777;
+	display: flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.livelife span {
+	font-size: 30px;
+}
+.footer {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+}
+.footer span {
+	color: #555555;
+}
+.icons img {
+	height: 25px;
+	width: 25px;
+}
