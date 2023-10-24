@@ -93,9 +93,10 @@ button:hover {
 	justify-content: center;
 	align-items: center;
 }
-img {
+.lorem1image img {
 	height: 230px;
 	aspect-ratio: 1;
+	filter: invert(66%) sepia(79%) saturate(6992%) hue-rotate(341deg) brightness(101%) contrast(101%);
 }
 .lorem2 {
 	width: 100%;
@@ -122,9 +123,10 @@ img {
 	justify-content: center;
 	align-items: center;
 }
-img {
+.lorem2image img {
 	height: 230px;
 	aspect-ratio: 1;
+	filter: invert(66%) sepia(79%) saturate(6992%) hue-rotate(341deg) brightness(101%) contrast(101%);
 }
 .livelife {
 	width: 100%;
@@ -153,4 +155,8 @@ img {
 .icons img {
 	height: 25px;
 	width: 25px;
+	filter: invert(30%);
+}
+.icons img:hover {
+	filter: invert(60%);
 }
