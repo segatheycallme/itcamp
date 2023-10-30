@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eb4917;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 11px;
+}
+.card {
+    height: 400px;
+    width: 800px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.main {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.image {
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+.image img {
+    height: 100%;
+    width: 100%;
+}
+.text {
+    height: 90%;
+    width: 50%;
+}
+.text h1 {
+    margin: 0;
+}
+.text h2 {
+    margin: 0;
+}
+.text h4 {
+    margin: 0;
+    margin-bottom: 7px;
+    font-weight: normal;
+    color: #999999;
+}
+.text h3 {
+    margin: 0;
+}
+.text p {
+    margin: 0;
+    color: #999999;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.size {
+    margin: 10px;
+    display: flex;
+}
+.size button {
+    width: 40px;
+    background-color: #ffffff;
+    border: 2pt solid #dddddd;
+    margin: 0;
+}
+.size button:active {
+    background-color: #dddddd;
+}
+.color {
+    margin: 10px;
+}
+.color button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+.color button:active {
+    border: 2px solid #000000;
+}
+#gray { background-color: #cccccc; }
+#red { background-color: #ff5555; }
+#blue { background-color: #5555ff; }
+#green { background-color: #55ff55; }
+#purple { background-color: #ff55ff; }
+.actions {
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.actions button {
+    height: 100%;
+    width: 50%;
+    border: 0 solid #000000;
+    font-weight: bold;
+}
+#cart {
+    background-color: #111122;
+    color: #ffffff;
+}
+#wishlist {
+    background-color: #dddddd;
+}
+.x {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 8px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4em;
+}
