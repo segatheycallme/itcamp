@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #eeefff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.card {
+	max-width: 300px;
+	width: 30%;
+	height: 500px;
+	background-color: #ffffff;
+	border-radius: 15px;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+.card img {
+	height: 37%;
+}
+.text {
+	display: flex;
+	flex-direction: column;
+}
+.card h2 {
+	font-weight: normal;
+	padding-left: 20px;
+	color: #555555;
+}
+.card p {
+	padding-left: 10px;
+	color: #555555;
+}
+#line {
+	background-color: #cccccc;
+	width: 90%;
+	margin-left: 5%;
+	height: 1.5px;
+	color: #555555;
+	position: absolute;
+	bottom: 50px;
+}
+.card span {
+	padding-left: 30px;
+	font-size: 1.1em;
+	color: #555555;
+	position: absolute;
+	bottom: 20px;
+}
+
+@media only screen and (max-width:700px) {
+	.container {
+		flex-direction: column;
+	}
+	.card {
+		width: 80%;
+		max-width: 600px;
+		height: 250px;
+		flex-direction: row;
+	}
+	.card img {
+		height: 70%;
+	}
+}
+@media only screen and (max-height:900px) {
+	.container {
+		flex-direction: column;
+	}
+	.card {
+		width: 80%;
+		max-width: 600px;
+		height: 200px;
+		flex-direction: row;
+		font-size: 0.8em;
+	}
+	.card img {
+		height: 50%;
+	}
+}
