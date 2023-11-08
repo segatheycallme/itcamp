@@ -71,7 +71,7 @@ body {
 		height: 70%;
 	}
 }
-@media only screen and (max-height:900px) {
+@media only screen and (max-height:500px) {
 	.container {
 		flex-direction: column;
 	}
