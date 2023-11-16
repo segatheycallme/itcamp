@@ -7,12 +7,16 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	width: 100%;
 	font-size: 1em;
+	overflow: scroll;
 }
 .navbar {
 	width: 100%;
 	height: 8vh;
-	position: relative;
+	position: fixed;
+	background-color: #fff;
+	z-index: 1;
 }
 .prvi {
 	position: absolute;
@@ -23,15 +27,17 @@ body {
 }
 .drugi {
 	position: absolute;
-	top: 18px;
+	top: 4px;
 	right: 3%;
 	font-size: 1.3em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .main {
 	width: 100%;
 	aspect-ratio: 4;
 	display: flex;
 	flex-direction: row;
+	margin-top: 8vh;
 }
 .help {
 	height: 100%;
@@ -49,10 +55,20 @@ body {
 .help h2 {
 	font-size: 2.2em;
 }
-.help img {
-	height: 90%;
+.helpme {
+	height: 100%;
+	width: 50%;
+	padding: 2.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.helpme img {
 	width: 90%;
 	border-radius: 1em;
+}
+#brain {
+	filter:saturate(3) sepia(0.9) hue-rotate(165deg);
 }
 .buttons {
 	padding-left: 2em;
@@ -86,6 +102,7 @@ button:hover {
 	align-items: center;
 }
 .cards {
+	margin-top: 3vh;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -96,16 +113,34 @@ button:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-.card img {
-	width: 4em;
-	height: 4em;
-	border-radius: 50%;
+	text-align: center;
 }
 .card p {
 	margin-top: 0;
-	text-align: center;
+}
+.card i {
+	font-size: 2em;
+	color: #57b;
 }
 .benefits h3 {
 	font-size: 2.5em;
+}
+
+@media only screen and (max-width:1200px) {
+	body {
+		font-size: 0.8em;
+	}
+}
+@media only screen and (max-width:500px) {
+	body {
+		font-size: 0.7em;
+	}
+	.cards {
+		flex-direction: column;
+	}
+	.card {
+		flex-direction: row;
+		width: 100%;
+		padding: 2em;
+	}
 }
