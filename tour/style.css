@@ -1,0 +1,297 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+.navbar {
+	width: 100%;
+	height: 5vh;
+	display: flex;
+	background-color: #000;
+	position: fixed;
+}
+.left {
+	width: 80%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+span {
+	margin-left: 1em;
+	font-weight: bold;
+	font-size: 2em;
+	color: #eee;
+}
+.right {
+	width: 20%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+.right button {
+	height: 100%;
+	aspect-ratio: 1;
+	background-color: transparent;
+	border: transparent;
+	font-size: 0.9em;
+	color: #eee;
+}
+.right button:hover {
+	background-color: #a00;
+}
+.desktop {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	gap: 2%;
+	padding-left: 2%;
+	display: none;
+}
+.desktop button {
+	height: 100%;
+	background-color: transparent;
+	border: transparent;
+	font-size: 0.9em;
+	color: #eee;
+}
+.desktop button:hover {
+	background-color: #334;
+}
+.home {
+	margin-top: 5vh;
+	width: 100%;
+	height: 100vh;
+	background-image: url("../images/nyc.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+}
+@keyframes za_dva {
+	0% {
+		content: "Chicago";
+	}
+	33% {
+		content: "Los Angeles";
+	}
+	66% {
+		content: "New York";
+	}
+	100% {
+		content: "Chicago";
+	}
+}
+@keyframes za_tri {
+	0% {
+		content: "Thank you, Chicago - A night we won't forget.";
+	}
+	33% {
+		content: "We had the best time playing at Venice Beach!";
+	}
+	66% {
+		content: "The atmosphere in New York is lorem ipsum.";
+	}
+	100% {
+		content: "Thank you, Chicago - A night we won't forget.";
+	}
+}
+@keyframes za_sliku {
+	0% {
+		background-image: url("../images/chicago.jpg");
+	}
+	33% {
+		background-image: url("../images/la.jpg");
+	}
+	66% {
+		background-image: url("../images/ny.jpg");
+	}
+	100% {
+		background-image: url("../images/chicago.jpg");
+	}
+}
+.home h2 {
+	color: #eee;
+	font-size: 2em;
+	margin: 0;
+	font-weight: normal;
+}
+.home h3 {
+	color: #eee;
+	font-weight: normal;
+	font-size: 1.3em;
+	margin: 0;
+	margin-bottom: 5%;
+	margin-top: 0.5%;
+}
+.home h2::before {
+	content: "sergej";
+	animation: za_dva infinite 12s;
+}
+.home h3::before {
+	content: "sergej";
+	animation: za_tri infinite 12s;
+}
+.home {
+	animation: za_sliku infinite 12s;
+}
+.band {
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #222;
+}
+.band h1 {
+	color: #eee;
+	font-weight: normal;
+	margin: 0;
+}
+.band h4 {
+	color: #777;
+	font-weight: normal;
+	font-style: italic;
+}
+.band p {
+	color: #eee;
+	text-align: justify;
+	width: 50%;
+}
+.band .cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 60%;
+	height: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.band .card {
+	width: 30%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.band .card span {
+	margin: 0;
+	margin-bottom: 5%;
+	font-weight: normal;
+}
+.band .card img {
+	width: 50%;
+}
+.tour {
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+}
+.tour h1 {
+	color: #eee;
+	font-weight: normal;
+	margin: 0;
+}
+.tour h4 {
+	color: #777;
+	font-weight: normal;
+	font-style: italic;
+}
+.dates {
+	width: 50%;
+	height: 8em;
+	background-color: #222;
+	display: flex;
+	flex-direction: column;
+}
+.date {
+	width: 100%;
+	height: 33%;
+	display: flex;
+	align-items: center;
+	border: 0.02em solid #444;
+	position: relative;
+}
+.date span {
+	font-weight: normal;
+	font-size: 1.3em;
+	color: #6f6f65;
+}
+#warning {
+	background-color: red;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	color: #eee;
+}
+#num {
+	position: absolute;
+	right: 3%;
+	background-color: #000;
+	color: #eee;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	border-radius: 50%;
+}
+.tour .cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 51%;
+	height: 50%;
+	margin-top: 3%;
+}
+.tour .card {
+	background-color: #222;
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 4%;
+}
+.tour .card img {
+	width: 100%;
+}
+.tour .card h2 {
+	font-size: 1em;
+	font-weight: normal;
+	color: #eee;
+	margin: 0;
+	margin-left: 10%;
+	margin-top: 0.3em;
+}
+.tour .card span {
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #777;
+	font-style: italic;
+	margin-left: 10%;
+}
+.tour .card p {
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #eee;
+	margin: 0;
+	margin-left: 10%;
+}
+.tour .card button {
+	border: 0;
+	background-color: #000;
+	color: #eee;
+	width: 35%;
+	height: 10%;
+	margin-left: 10%;
+}
