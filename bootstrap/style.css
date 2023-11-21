@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #333;
+}
+.area {
+	width: 40vw;
+	height: 40vh;
+	position: relative;
+}
+.star {
+	animation: pomeraj 4s infinite ease-in-out;
+	position: absolute;
+}
+img {
+	animation: obrt 1s infinite linear;
+	width: 50px;
+	height: 50px;
+}
+@keyframes obrt {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+@keyframes pomeraj {
+	0% {
+		right: 0;
+		top: 0;
+		left: 100%;
+		bottom: 100%;
+	}
+	50% {
+		right: 100%;
+		top: 100%;
+		left: 0;
+		bottom: 0;
+	}
+	100% {
+		right: 0;
+		top: 0;
+		left: 100%;
+		bottom: 100%;
+	}
+}
