@@ -1,0 +1,138 @@
+@font-face { 
+  font-family: "iosevka-elo";
+  src: url('../fonts/IosevkaNerdFontMono-ExtraLightOblique.ttf');
+}
+@font-face { 
+  font-family: "iosevka-el";
+  src: url('../fonts/IosevkaNerdFontMono-ExtraLight.ttf');
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "iosevka-elo";
+}
+.blurer {
+  filter: blur(12em) brightness(80%) contrast(100%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: -1;
+}
+.rotater {
+  aspect-ratio: 1;
+  animation: krug 20s linear infinite;
+  background: linear-gradient(#080, #255, #33a);
+}
+@keyframes krug {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card {
+  border: 0.1em solid rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1.3em;
+  display: flex;
+  justify-content: center;
+}
+.name {
+  margin-top: 2%;
+  padding-right: 3em;
+  padding-left: 3em;
+  min-height: 3em;
+}
+.name h1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-family: "iosevka-elo";
+  font-size: 2em;
+  color: #fff;
+  letter-spacing: 0.1em;
+  width: 17.7ch;
+  overflow: hidden;
+	white-space: nowrap;
+	animation: typing 2s steps(15, end);
+}
+.name span {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 0.5ch;
+  font-family: "iosevka-elo";
+  font-size: 2em;
+  background-color: #fff;
+  transform: scaleY(80%);
+  animation: blink 1s step-end;
+  animation-iteration-count: 3;
+}
+@keyframes typing { from { width: 0; } }
+@keyframes blink { 50% { background-color: transparent; } }
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.texts {
+  width: 28%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+  color: #fff;
+  margin-top: 4em;
+  transition: margin-top 500ms ease;
+}
+.texts:hover {
+  margin-top: 1em;
+}
+.texts h2 {
+  border-bottom: 0.1em solid #fff;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+.texts p {
+  font-family: "iosevka-el";
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body {
+    font-size: 0.7em;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .texts {
+    width: 80%;
+    margin-top: 3em;
+    margin-right: 0em;
+    transition: margin-right 500ms ease;
+  }
+  .texts:hover {
+    margin-top: 3em;
+    margin-right: 3em;
+  }
+}
+@media (min-aspect-ratio: 1) {
+  .rotater {
+    width: 141%;
+  }
+}
+@media (max-aspect-ratio: 1) {
+  .rotater {
+    height: 141%;
+  }
+}
