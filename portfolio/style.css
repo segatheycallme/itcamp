@@ -14,9 +14,26 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: "iosevka-elo";
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
 }
 .blurer {
-  filter: blur(12em) brightness(80%) contrast(100%);
+  filter: blur(12em) brightness(100%) contrast(100%);
   width: 100%;
   height: 100%;
   display: flex;
@@ -27,7 +44,7 @@ body {
 }
 .rotater {
   aspect-ratio: 1;
-  animation: krug 20s linear infinite;
+  animation: krug 12s linear infinite;
   background: linear-gradient(#080, #255, #33a);
 }
 @keyframes krug {
@@ -78,22 +95,26 @@ body {
 @keyframes blink { 50% { background-color: transparent; } }
 .cards {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-wrap: wrap;
   width: 100%;
+  margin-bottom: 5em;
 }
 .texts {
   width: 28%;
+  height: max-content;
   display: flex;
   align-items: center;
   flex-direction: column;
   padding: 1em;
   color: #fff;
+  margin: 1.4%;
   margin-top: 4em;
-  transition: margin-top 500ms ease;
+  margin-bottom: 0;
+  transition: margin-top 500ms ease, margin-bottom 500ms ease;
 }
 .texts:hover {
-  margin-top: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 .texts h2 {
   border-bottom: 0.1em solid #fff;
@@ -113,6 +134,7 @@ body {
     font-size: 0.7em;
   }
   .cards {
+    align-items: center;
     flex-direction: column;
   }
   .texts {
