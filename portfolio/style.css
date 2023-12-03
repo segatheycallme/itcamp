@@ -1,11 +1,4 @@
-@font-face { 
-  font-family: "iosevka-elo";
-  src: url('../fonts/IosevkaNerdFontMono-ExtraLightOblique.ttf');
-}
-@font-face { 
-  font-family: "iosevka-el";
-  src: url('../fonts/IosevkaNerdFontMono-ExtraLight.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +6,6 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: "iosevka-elo";
   box-sizing: border-box;
 }
 ::-webkit-scrollbar {
@@ -71,11 +63,13 @@ body {
 .name h1 {
   margin-top: 3%;
   margin-bottom: 3%;
-  font-family: "iosevka-elo";
+  font-family: "Noto Sans Mono";
+  font-weight: 400;
+  font-style: italic;
   font-size: 2em;
   color: #fff;
-  letter-spacing: 0.1em;
-  width: 17.7ch;
+  letter-spacing: 0.1ch;
+  width: calc(15ch + 0.1ch * 14);
   overflow: hidden;
 	white-space: nowrap;
 	animation: typing 2s steps(15, end);
@@ -83,8 +77,10 @@ body {
 .name span {
   margin-top: 3%;
   margin-bottom: 3%;
-  margin-left: 0.5ch;
-  font-family: "iosevka-elo";
+  margin-left: 1ch;
+  font-family: "Noto Sans Mono";
+  font-weight: 400;
+  font-style: italic;
   font-size: 2em;
   background-color: #fff;
   transform: scaleY(80%);
@@ -117,12 +113,17 @@ body {
   margin-bottom: 2em;
 }
 .texts h2 {
+  font-family: "Noto Sans Mono";
+  font-weight: 400;
+  font-style: italic;
   border-bottom: 0.1em solid #fff;
   padding-right: 0.5em;
   padding-left: 0.5em;
 }
 .texts p {
-  font-family: "iosevka-el";
+  font-family: "Noto Sans Mono";
+  font-weight: 300;
+  font-size: 1.15em;
 }
 @media only screen and (max-width: 1200px) {
   body {
