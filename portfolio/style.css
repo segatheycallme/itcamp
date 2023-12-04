@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+.blurer {
+  filter: blur(12em) brightness(100%) contrast(100%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: -2;
+}
+.rotater {
+  aspect-ratio: 1;
+  animation: krug 12s linear infinite;
+  background: linear-gradient(#080, #255, #33a);
+}
+@keyframes krug {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card {
+  border: 0.1em solid rgba(255, 255, 255, 0.7);
+  background-color: rgba(20, 20, 20, 0.5);
+  border-radius: 1.3em;
+  display: flex;
+  justify-content: center;
+}
+.name {
+  margin-top: 2%;
+  padding-right: 3em;
+  padding-left: 3em;
+  min-height: 3em;
+}
+.name h1 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-family: "Noto Sans Mono";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2em;
+  color: #fff;
+  letter-spacing: 0.1ch;
+  width: calc(15ch + 0.1ch * 14);
+  overflow: hidden;
+	white-space: nowrap;
+	animation: typing 2s steps(15, end);
+}
+.name span {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 1ch;
+  font-family: "Noto Sans Mono";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 2em;
+  background-color: #fff;
+  transform: scaleY(80%);
+  animation: blink 1s step-end;
+  animation-iteration-count: 3;
+}
+@keyframes typing { from { width: 0; } }
+@keyframes blink { 50% { background-color: transparent; } }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 5em;
+}
+.texts {
+  width: 28%;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+  color: #fff;
+  margin: 1.4%;
+  margin-top: 4em;
+  margin-bottom: 0;
+  transition: margin-top 500ms ease, margin-bottom 500ms ease;
+}
+.texts:hover {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.texts h2 {
+  font-family: "Noto Sans Mono";
+  font-weight: 400;
+  font-style: italic;
+  border-bottom: 0.1em solid #fff;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  text-align: center;
+}
+.texts h3 {
+  font-family: "Noto Sans Mono";
+  font-weight: 400;
+  font-size: 1.4em;
+  margin-top: 0.75em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.texts p {
+  font-family: "Noto Sans Mono";
+  font-weight: 300;
+  font-size: 1.15em;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+.texts a {
+  text-underline-offset: 15%;
+}
+.texts a:link { color: #8bf; }
+.texts a:visited { color: #abd; }
+.hi {
+  width: 22%;
+}
+.hi h2 {
+  margin-bottom: 0;
+}
+.pfp {
+  height: 10em;
+  aspect-ratio: 1;
+  border-radius: 1.5em;
+  border: 0.1em solid #eee;
+  padding: 0.2em;
+}
+.edu {
+  width: 31%;
+}
+.edu br {
+  display: block;
+  content: ""; 
+  margin-top: 0.7em;
+}
+.proj {
+  width: calc(37.5% - 6em)
+}
+.proj br {
+  display: block;
+  content: ""; 
+  margin-top: 0.4em;
+}
+.links {
+  width: 100%;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  padding: 1em;
+}
+.links span {
+  color: #fff;
+  font-family: "Noto Sans Mono";
+  font-size: 1.15em;
+}
+@media only screen and (max-width: 1200px) {
+  body {
+    font-size: 0.8em;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body {
+    font-size: 0.7em;
+  }
+}
+@media (min-aspect-ratio: 1) {
+  .rotater {
+    width: 141%;
+  }
+}
+@media (max-aspect-ratio: 1) {
+  .rotater {
+    height: 141%;
+  }
+  .cards {
+    align-items: center;
+    flex-direction: column;
+  }
+  .texts {
+    width: 80%;
+    margin-top: 3em;
+    margin-right: 0em;
+    transition: margin-right 500ms ease;
+  }
+  .texts:hover {
+    margin-top: 3em;
+    margin-right: 3em;
+    margin-bottom: 0;
+  }
+}
