@@ -121,6 +121,7 @@ body {
   border-bottom: 0.1em solid #fff;
   padding-right: 0.5em;
   padding-left: 0.5em;
+  text-align: center;
 }
 .texts h3 {
   font-family: "Noto Sans Mono";
@@ -128,26 +129,23 @@ body {
   font-size: 1.4em;
   margin-top: 0.75em;
   margin-bottom: 1em;
+  text-align: center;
 }
 .texts p {
   font-family: "Noto Sans Mono";
   font-weight: 300;
   font-size: 1.15em;
-  text-align: justify;
   margin-left: 5%;
   margin-right: 5%;
+  text-align: justify;
 }
 .texts a {
   text-underline-offset: 15%;
 }
-.texts a:link {
-  color: #8bf;
-}
-.texts a:visited {
-  color: #abd;
-}
+.texts a:link { color: #8bf; }
+.texts a:visited { color: #abd; }
 .hi {
-  width: 25%;
+  width: 22%;
 }
 .hi h2 {
   margin-bottom: 0;
@@ -160,12 +158,34 @@ body {
   padding: 0.2em;
 }
 .edu {
-  width: 37%;
+  width: 31%;
 }
 .edu br {
   display: block;
   content: ""; 
   margin-top: 0.7em;
+}
+.proj {
+  width: calc(37.5% - 6em)
+}
+.proj br {
+  display: block;
+  content: ""; 
+  margin-top: 0.4em;
+}
+.links {
+  width: 100%;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  padding: 1em;
+}
+.links span {
+  color: #fff;
+  font-family: "Noto Sans Mono";
+  font-size: 1.15em;
 }
 @media only screen and (max-width: 1200px) {
   body {
@@ -199,5 +219,6 @@ body {
   .texts:hover {
     margin-top: 3em;
     margin-right: 3em;
+    margin-bottom: 0;
   }
 }
