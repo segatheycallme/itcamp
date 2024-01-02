@@ -1,45 +1,61 @@
-let kemal = 150;
-const staKupujes = prompt("unesi ono sto zelis kupiti");
+// domaci jeste da korisnika pitate koliko zeli novca da ima
+// napraviti takodje store gde mozete kupiti odredjenje artikle
+// ako korisnik uneste neki od ponudjenih onda se provera da li korisnik ima novca dovljno za to ako nema pitamo korisnika
+// da li zeli da se uzajmi i vi korisniku pozajmite onoliko koliko on unese
 
-const sok = 60;
-const cokolada = 40;
-const cigare = 460;
+let novac = prompt("unesite koliko imate novca");
+const stolica = 1200;
+const sto = 3200;
+const tv = 12000;
 
-switch (staKupujes.toLowerCase()) {
-  case "sok":
-    if (kemal >= sok) {
-      console.log("🍹🍹🍹🍹🍹🍹🍹🍹🍹");
-      kemal -= sok;
-      console.log("na racunu sada imas: ", kemal);
+let izbor = prompt("zelite li kupiti stolicu, sto ili tv");
+switch (izbor.toLowerCase()) {
+  case "stolica":
+    novac -= stolica;
+    if (novac >= 0) {
+      console.log("kupili ste stolicu, trenutno stanje ", novac);
     } else {
-      console.log("nemas dovoljno para za sok");
-      console.log("na racunu imas: ", kemal);
+      izbor = prompt("nemate dovoljno para. hocete li da uzmete kredit?(da ili ne)");
+      if (izbor == "da") {
+        let dug = -1 * novac;
+        console.log("dug vam je ", dug);
+      } else {
+        novac += stolica;
+        console.log("nista niste kupili.")
+      }
     }
     break;
-
-  case "cokolada":
-    if (kemal >= cokolada) {
-      console.log("🍫🍫🍫🍫🍫🍫🍫🍫🍫");
-      kemal -= cokolada;
-      console.log("na racunu sada imas: ", kemal);
+  case "sto":
+    novac -= sto;
+    if (novac >= 0) {
+      console.log("kupili ste sto, trenutno stanje ", novac);
     } else {
-      console.log("nemas dovoljno para za cokoladu");
-      console.log("na racunu imas: ", kemal);
+      izbor = prompt("nemate dovoljno para. hocete li da uzmete kredit?(da ili ne)");
+      if (izbor == "da") {
+        let dug = -1 * novac;
+        console.log("dug vam je ", dug);
+      } else {
+        novac += sto;
+        console.log("nista niste kupili.")
+      }
     }
     break;
-
-  case "cigare":
-    if (kemal >= cigare) {
-      console.log("🚬🚬🚬🚬🚬🚬🚬🚬🚬");
-      kemal -= cigare;
-      console.log("na racunu sada imas: ", kemal);
+  case "tv":
+    novac -= tv;
+    if (novac >= 0) {
+      console.log("kupili ste tv, trenutno stanje ", novac);
     } else {
-      console.log("nemas dovoljno para za cigare");
-      console.log("na racunu imas: ", kemal);
+      izbor = prompt("nemate dovoljno para. hocete li da uzmete kredit?(da ili ne)");
+      if (izbor == "da") {
+        let dug = -1 * novac;
+        console.log("dug vam je ", dug);
+      } else {
+        novac += tv;
+        console.log("nista niste kupili.")
+      }
     }
     break;
-
   default:
-    console.log("ne mozes kupiti to")
+    console.log("nemamo taj artikal.")
     break;
 }
