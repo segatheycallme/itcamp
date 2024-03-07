@@ -22,7 +22,6 @@ let zadaci = [];
 temp.forEach(el => {
   zadaci.push(new Zadatak(el["id"], el["opis"]));
 });
-console.log(zadaci);
 let str = "";
 let izbor = prompt("Napisite \n\
     1 za pravljenje novog zadatka \n\
