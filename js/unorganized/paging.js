@@ -17,7 +17,7 @@ const max_pages = Math.ceil(podaci.length / elements_per_page);
 
 // prvi zadatak
 let page = podaci.slice(current_page * elements_per_page - elements_per_page, current_page * elements_per_page);
-// console.log(page);
+console.log(page);
 
 // drugi zadatak
 let ponavljanje = {};
@@ -32,12 +32,12 @@ for (let i = 0; i < page_copy.length; i++) {
   }
 };
 
-// console.log(ponavljanje)
-// console.log(page_copy)
+console.log(ponavljanje)
+console.log(page_copy)
 
 // treci zadatak
 page_copy = page.filter((el) => el.ime.search("^Ah") + 1);
-// console.log(page_copy)
+console.log(page_copy)
 
 // cetvrti zadatak
 page_copy = page.slice(0, 10);
@@ -52,4 +52,4 @@ for (let i = 0; i < page_copy.length; i++) {
     }
   }
 };
-// console.log(page_copy);
+console.log(page_copy);
