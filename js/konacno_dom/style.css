@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  padding: 5%;
+  flex-wrap: wrap;
+}
+
+.account {
+  margin: 0.5%;
+  border: 3px dashed #eee;
+  padding: 10px;
+  width: 30.1%;
+  border-radius: 20px;
+  background-color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+}
+
+.account img {
+  border-radius: 50%;
+  height: 80%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.account .basic {
+  height: 76%;
+}
+
+.account h2 {
+  color: #333;
+}
+
+.account h4 {
+  font-weight: normal;
+  color: #555;
+}
+
+.adv {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.adv:active {
+  right: 7px;
+  top: 7px;
+}
+
+.adv:active .ddm {
+  display: block;
+}
+
+.adv i {
+  color: #ddd;
+  font-size: 20px;
+}
+
+.adv:hover i {
+  color: #bbb
+}
+
+.adv:active i {
+  color: #999;
+  border: solid 3px #bbb;
+  border-radius: 50%;
+}
+
+.ddm {
+  z-index: 1;
+  background: #fefefe;
+  min-width: 250px;
+  width: max-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 70px;
+  position: absolute;
+  top: 26px;
+  padding-top: 10px;
+  text-align: center;
+  display: none;
+  border-radius: 10px;
+  border: 2px solid #eee;
+}
