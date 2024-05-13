@@ -1,11 +1,58 @@
 .App {
-  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding-top: 1em;
+}
+
+.aa {
+  width: 3em;
+}
+
+.left {
+  display: flex;
+  font-size: 1.6em;
+  gap: 1em;
+  justify-content: center;
+  width: 50%;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+
+.right {
+  padding: 1em;
+  display: flex;
+  font-size: 1.6em;
+  justify-content: center;
+  gap: 1em;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+button {
+  font-size: 1em;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.inner2 {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding-top: 1em;
+  width: 100%;
+  font-size: 2em;
+  color: #eee;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -32,6 +79,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
