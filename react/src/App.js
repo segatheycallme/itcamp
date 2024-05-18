@@ -1,16 +1,14 @@
-import './App.css';
-import React, { useState } from "react";
-import Dugmic from './components/Dugmic';
-import { Typography } from '@mui/material';
-
+import React from "react";
+import { Route, Routes } from 'react-router-dom';
+import Cas from './pages/Cas';
+import Calc from './pages/Calc';
 
 function App() {
-  const [active, setActive] = useState(true)
   return (
-    <div>
-      <Dugmic active={active} setActive={setActive}></Dugmic>
-      <Typography>dugmic je {active ? "aktivan" : "neaktivan"}</Typography>
-    </div >
+    <Routes>
+      <Route path='/' Component={Cas}></Route>
+      <Route path='/calc' Component={Calc}></Route>
+    </Routes>
   );
 }
 
