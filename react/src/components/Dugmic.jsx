@@ -1,31 +1,21 @@
 import React from "react";
-import { Button, createTheme, ThemeProvider } from '@mui/material';
+import { Button } from '@mui/material';
+
+function randomColor(colors, lastColor) {
+  const newColor = colors[Math.floor(Math.random() * colors.length)]
+  if (newColor === lastColor) {
+    return randomColor(colors, lastColor)
+  }
+
+  return newColor
+}
 
 function Dugmic(props) {
-  const active = props.active;
-  const setActive = props.setActive;
-  const theme = createTheme({
-    palette: {
-      bluu: {
-        main: '#22509a',
-        light: '#ff00ff',
-        dark: '#2961ba',
-        contrastText: '#9fcfff',
-      },
-      gree: {
-        main: '#767676',
-        light: '#ff00ff',
-        dark: '#6a6a6a',
-        contrastText: '#1a1a1a',
-      }
-    }
-  })
+  console.log(props)
+  const { lastColor, setColor, children } = props;
+  const colors = ["primary", "secondary", "error", "warning", "info"];
   return (
-    <ThemeProvider theme={theme}>
-      <Button variant="contained" color={active ? "bluu" : "gree"} onClick={() => { setActive(!active) }}>
-        {active ? "ACTIVE" : "INACTIVE"}
-      </Button>
-    </ThemeProvider>
+    <Button variant="contained" color={lastColor} onClick={() => { setColor(randomColor(colors, lastColor)) }}>{children}</Button>
   );
 }
 
