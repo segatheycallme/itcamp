@@ -4,11 +4,11 @@ import { Typography } from '@mui/material';
 
 
 export default function Cas() {
-  const [color, setColor] = useState("primary")
+  const [color, setColor] = useState(["primary", "secondary"])
   return (
     <div>
-      <Dugmic lastColor={color} setColor={setColor}>zdravoooooooooo</Dugmic>
-      <Typography>dugmic je {color}</Typography>
+      <Dugmic lastColors={color} setColor={setColor}>zdravoooooooooo</Dugmic>
+      <Typography>dugmic je {color[0]}</Typography>
     </div >
   );
 }
