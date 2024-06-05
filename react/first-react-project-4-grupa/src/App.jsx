@@ -6,6 +6,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Footer } from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import Hotels from "./pages/Hotels/Hotels";
+import Home from "./pages/Home/Home";
 import Hotel from "./pages/Hotel/Hotel";
 
 function App() {
@@ -72,7 +73,7 @@ function App() {
       <main className="main">
         <div className="hotels">
           <Routes>
-            <Route path="/" element={<p>Pocetna stranica</p>} />
+            <Route path="/" element={<Home />} />
             <Route path="/hotels" element={<Hotels />} />
             <Route path="/hotels/:id" element={<Hotel />} />
           </Routes>
