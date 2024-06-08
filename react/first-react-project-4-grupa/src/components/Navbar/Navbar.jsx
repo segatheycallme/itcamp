@@ -12,6 +12,14 @@ export function Navbar() {
         <div className="listing">
           <ul>
             <NavLink
+              to="/teams"
+              className={({ isActive }) =>
+                isActive ? "active-link li" : "classic-link li"
+              }
+            >
+              Teams
+            </NavLink>
+            <NavLink
               to="/hotels"
               className={({ isActive }) =>
                 isActive ? "active-link li" : "classic-link li"
@@ -44,7 +52,9 @@ export function Navbar() {
               About us
             </NavLink>
           </ul>
-          <button>Log in</button>
+          <div className="loginn">
+            <button>Log in</button>
+          </div>
         </div>
       </div>
     </header>

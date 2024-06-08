@@ -1,0 +1,202 @@
+[
+  {
+    "team_name": "Arsenal",
+    "points": 85,
+    "matches_played": 38,
+    "goals_scored": 75,
+    "goals_conceded": 30,
+    "wins": 26,
+    "draws": 7,
+    "losses": 5
+  },
+  {
+    "team_name": "Manchester City",
+    "points": 83,
+    "matches_played": 38,
+    "goals_scored": 78,
+    "goals_conceded": 32,
+    "wins": 25,
+    "draws": 8,
+    "losses": 5
+  },
+  {
+    "team_name": "Liverpool",
+    "points": 78,
+    "matches_played": 38,
+    "goals_scored": 70,
+    "goals_conceded": 35,
+    "wins": 23,
+    "draws": 9,
+    "losses": 6
+  },
+  {
+    "team_name": "Chelsea",
+    "points": 75,
+    "matches_played": 38,
+    "goals_scored": 65,
+    "goals_conceded": 30,
+    "wins": 22,
+    "draws": 9,
+    "losses": 7
+  },
+  {
+    "team_name": "Manchester United",
+    "points": 72,
+    "matches_played": 38,
+    "goals_scored": 68,
+    "goals_conceded": 38,
+    "wins": 21,
+    "draws": 9,
+    "losses": 8
+  },
+  {
+    "team_name": "Tottenham Hotspur",
+    "points": 67,
+    "matches_played": 38,
+    "goals_scored": 60,
+    "goals_conceded": 40,
+    "wins": 19,
+    "draws": 10,
+    "losses": 9
+  },
+  {
+    "team_name": "Leicester City",
+    "points": 62,
+    "matches_played": 38,
+    "goals_scored": 58,
+    "goals_conceded": 45,
+    "wins": 18,
+    "draws": 8,
+    "losses": 12
+  },
+  {
+    "team_name": "West Ham United",
+    "points": 58,
+    "matches_played": 38,
+    "goals_scored": 54,
+    "goals_conceded": 47,
+    "wins": 16,
+    "draws": 10,
+    "losses": 12
+  },
+  {
+    "team_name": "Everton",
+    "points": 54,
+    "matches_played": 38,
+    "goals_scored": 50,
+    "goals_conceded": 50,
+    "wins": 15,
+    "draws": 9,
+    "losses": 14
+  },
+  {
+    "team_name": "Aston Villa",
+    "points": 50,
+    "matches_played": 38,
+    "goals_scored": 48,
+    "goals_conceded": 48,
+    "wins": 14,
+    "draws": 8,
+    "losses": 16
+  },
+  {
+    "team_name": "Wolverhampton Wanderers",
+    "points": 47,
+    "matches_played": 38,
+    "goals_scored": 45,
+    "goals_conceded": 50,
+    "wins": 13,
+    "draws": 8,
+    "losses": 17
+  },
+  {
+    "team_name": "Crystal Palace",
+    "points": 45,
+    "matches_played": 38,
+    "goals_scored": 40,
+    "goals_conceded": 50,
+    "wins": 12,
+    "draws": 9,
+    "losses": 17
+  },
+  {
+    "team_name": "Leeds United",
+    "points": 42,
+    "matches_played": 38,
+    "goals_scored": 44,
+    "goals_conceded": 55,
+    "wins": 11,
+    "draws": 9,
+    "losses": 18
+  },
+  {
+    "team_name": "Southampton",
+    "points": 40,
+    "matches_played": 38,
+    "goals_scored": 42,
+    "goals_conceded": 55,
+    "wins": 10,
+    "draws": 10,
+    "losses": 18
+  },
+  {
+    "team_name": "Newcastle United",
+    "points": 38,
+    "matches_played": 38,
+    "goals_scored": 38,
+    "goals_conceded": 60,
+    "wins": 9,
+    "draws": 11,
+    "losses": 18
+  },
+  {
+    "team_name": "Brighton & Hove Albion",
+    "points": 35,
+    "matches_played": 38,
+    "goals_scored": 35,
+    "goals_conceded": 58,
+    "wins": 8,
+    "draws": 11,
+    "losses": 19
+  },
+  {
+    "team_name": "Burnley",
+    "points": 33,
+    "matches_played": 38,
+    "goals_scored": 33,
+    "goals_conceded": 60,
+    "wins": 7,
+    "draws": 12,
+    "losses": 19
+  },
+  {
+    "team_name": "Fulham",
+    "points": 30,
+    "matches_played": 38,
+    "goals_scored": 30,
+    "goals_conceded": 65,
+    "wins": 7,
+    "draws": 9,
+    "losses": 22
+  },
+  {
+    "team_name": "West Bromwich Albion",
+    "points": 28,
+    "matches_played": 38,
+    "goals_scored": 28,
+    "goals_conceded": 70,
+    "wins": 6,
+    "draws": 10,
+    "losses": 22
+  },
+  {
+    "team_name": "Sheffield United",
+    "points": 23,
+    "matches_played": 38,
+    "goals_scored": 25,
+    "goals_conceded": 75,
+    "wins": 5,
+    "draws": 8,
+    "losses": 25
+  }
+]
