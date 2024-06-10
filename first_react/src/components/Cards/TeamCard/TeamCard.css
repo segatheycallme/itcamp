@@ -1,0 +1,38 @@
+.team-card {
+  background: #333;
+  border-radius: 1em;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 1em;
+
+  h3 {
+    margin: 1em 0;
+  }
+
+
+  .centar {
+    width: 80%;
+  }
+
+  .right {
+    float: right;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .icon {
+    height: 50%;
+    margin: 2.5% 0;
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+
+  .icon:hover {
+    color: #aaa;
+  }
+}

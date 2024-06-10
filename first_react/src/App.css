@@ -1,0 +1,16 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  background-color: #0a0a0a;
+  top: 0;
+  left: 0;
+}
+
+main {
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 70vh;
+  padding-top: 6vh;
+  color: #eee;
+}

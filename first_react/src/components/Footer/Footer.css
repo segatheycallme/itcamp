@@ -1,0 +1,23 @@
+footer {
+  height: 22vh;
+  width: 100%;
+  background-color: #151515;
+  color: #ddd;
+  padding-top: 1em;
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .icons {
+    margin-top: 2em;
+    gap: 1%;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+  }
+}

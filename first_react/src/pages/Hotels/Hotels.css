@@ -1,0 +1,7 @@
+.hotels {
+  margin: auto;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

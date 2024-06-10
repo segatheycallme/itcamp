@@ -1,0 +1,76 @@
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1%;
+  padding-bottom: 0.5em;
+  background-color: #151515;
+  height: 6vh;
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    font-size: 4.5vh;
+  }
+
+  .listing {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 70%;
+    gap: 5%;
+  }
+
+  h3 {
+    margin-top: 0.5em;
+    text-shadow: #151515 0 0 3em;
+    transition: text-shadow 200ms ease-out, color 200ms ease-out;
+  }
+
+  h3:hover {
+    transition: text-shadow 200ms ease-out, color 200ms ease-out;
+    text-shadow: 0 0 2.3em;
+  }
+
+  .pasivan h3 {
+    color: #ddd;
+  }
+
+  .pasivan h3:hover {
+    color: #fff;
+  }
+
+  .aktivan h3 {
+    color: #e27c1f;
+  }
+
+  .aktivan h3:hover {
+    color: #ff9433;
+  }
+
+  button {
+    margin-top: 0.6em;
+    padding: 0.2em 2em;
+    background-color: #333;
+    color: #eee;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: 0.1em #151515 solid;
+    border-radius: 0.5em;
+    transition: border 200ms ease-out;
+  }
+
+  button:hover {
+    border: 0.1em #777 solid;
+    transition: border 200ms ease-out;
+  }
+
+  button:active {
+    background-color: #444;
+  }
+}
