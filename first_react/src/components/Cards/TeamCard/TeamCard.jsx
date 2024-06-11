@@ -15,7 +15,7 @@ export default function Hotel(params) {
         <br /><span className="left">draws: </span><span className="right">{params.draws}</span>
         <br /><span className="left">losses: </span><span className="right">{params.losses}</span>
       </div>
-      <FaCartArrowDown onClick={() => params.kalbek(params.team_name)} className="icon" />
+      <FaCartArrowDown onClick={() => params.kalbek(params.id)} className="icon" />
     </div>
   );
 }
