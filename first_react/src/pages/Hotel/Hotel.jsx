@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import HotelCard from "../../components/Cards/HotelCard/HotelCard";
 import hotels from "../../common/hotels.json";
 import "./Hotel.css";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 export default function Hotel() {
   const { id } = useParams();

@@ -1,0 +1,30 @@
+.pagination {
+  height: 6em;
+  width: 100%;
+  background-color: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+
+.pag-button {
+  background-color: #cacaca;
+  border-radius: 0.3em;
+  border: 0;
+  padding: 0.5em 0.6em;
+
+  span {
+    font-weight: bold;
+    margin: 0.5em 0.1em;
+  }
+
+}
+
+.current {
+  box-shadow: #a3171b 0 0 2em;
+}
+
+.pag-button:active {
+  background-color: #aaa;
+}

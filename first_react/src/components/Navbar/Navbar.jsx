@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-export function Navbar() {
+export default function Navbar() {
   const links = ["Hotels", "Apartments", "Teams", "Demo", "About us"]
 
   return (

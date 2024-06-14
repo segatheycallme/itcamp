@@ -3,7 +3,7 @@ import { CiFacebook } from "react-icons/ci";
 import { CiTwitter } from "react-icons/ci";
 import "./Footer.css";
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer>
       <div className="info">
