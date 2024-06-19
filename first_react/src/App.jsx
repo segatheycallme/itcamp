@@ -7,6 +7,7 @@ import Hotels from "./pages/Hotels/Hotels";
 import Home from "./pages/Home/Home";
 import Hotel from "./pages/Hotel/Hotel";
 import Teams from "./pages/Teams/Teams";
+import Quotes from "./pages/Quotes/Quotes";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/hotels" element={<Hotels />} />
           <Route path="/hotels/:id" element={<Hotel />} />
           <Route path="/teams" element={<Teams />} />
+          <Route path="/quotes" element={<Quotes />} />
         </Routes>
       </main>
       <Footer />
