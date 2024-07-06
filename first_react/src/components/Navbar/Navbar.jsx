@@ -1,8 +1,11 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import { useContext } from "react";
+import { AppContext } from "../../context/AppContext";
 
 export default function Navbar() {
-  const links = ["Hotels", "Quotes", "Teams", "Demo", "About us"]
+  let { user, setUser } = useContext(AppContext)
+  const links = !user ? [] : ["Hotels", "Quotes", "Teams", "Demo", "About us"]
 
   return (
     <header>
@@ -26,9 +29,9 @@ export default function Navbar() {
             </NavLink>
           )
         })}
-        <NavLink to="/login">
-          <button>Login</button>
-        </NavLink>
+        {!user ? "" :
+          <button onClick={() => { setUser(null) }}>Logout</button>
+        }
       </div>
     </header >
   );
