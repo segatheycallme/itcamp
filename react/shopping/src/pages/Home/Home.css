@@ -1,0 +1,19 @@
+.home {
+  height: 80vh;
+  background-image: url("/src/assets/girl.jpg");
+  background-size: cover;
+  position: relative;
+
+}
+
+.stvar {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  background-color: #f47422;
+  padding: 1em;
+  font-size: 1.3em;
+  padding-right: 10em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.1em;
+}

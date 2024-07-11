@@ -1,1 +1,7 @@
-
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 8vh;
+  padding-bottom: 12vh;
+  background-color: #222;
+}
