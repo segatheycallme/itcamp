@@ -1,10 +1,11 @@
 header {
   height: 8vh;
-  background-color: #0424b0;
+  background-color: #003366;
   position: fixed;
   top: 0;
   width: 100%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  z-index: 1;
 
   a {
     text-decoration: none;

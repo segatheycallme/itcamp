@@ -7,13 +7,14 @@
 }
 
 .stvar {
+  color: #e6ecec;
+  border-radius: 1.5em;
   position: absolute;
   top: 40%;
-  left: 0;
+  left: -1.5em;
   background-color: #f47422;
-  padding: 1em;
+  padding: 1em 10em 1em 3.5em;
   font-size: 1.3em;
-  padding-right: 10em;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   letter-spacing: 0.1em;
 }
