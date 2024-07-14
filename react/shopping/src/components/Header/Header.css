@@ -7,29 +7,23 @@ header {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   z-index: 1;
 
-  a {
-    text-decoration: none;
-  }
 
   .left {
     font-size: 2em;
     position: absolute;
     left: 0;
-    width: 30%;
     display: flex;
-    align-items: center;
-    padding-left: 2em;
     height: 100%;
+    padding-top: 1vh;
 
     img {
-      height: 1.5em;
+      height: 6vh;
     }
   }
 
   .right {
     position: absolute;
     right: 0;
-    width: 70%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -38,6 +32,7 @@ header {
     height: 100%;
 
     svg {
+      margin-top: 0.3em;
       font-size: 1.45em;
     }
 
@@ -60,4 +55,20 @@ header {
     }
   }
 
+  .mobajl {
+    position: absolute;
+    right: 0;
+    height: 100%;
+
+
+    .vauu {
+      color: #eee;
+      margin-right: 0.75em;
+      font-size: 3vh;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
 }

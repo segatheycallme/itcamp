@@ -10,18 +10,17 @@ import { MantineProvider } from '@mantine/core'
 
 export default function App() {
   return (
-    <>
+    <MantineProvider>
       <Header />
       <main>
-        <MantineProvider>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/products" element={<Products />} />
-          </Routes>
-        </MantineProvider>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+        </Routes>
       </main>
       <Footer />
-    </>
+    </MantineProvider>
   )
 }
 
