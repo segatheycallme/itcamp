@@ -31,11 +31,6 @@ header {
     padding-right: 3em;
     height: 100%;
 
-    svg {
-      margin-top: 0.3em;
-      font-size: 1.45em;
-    }
-
     span {
       font-size: 1.3em;
     }
@@ -60,12 +55,25 @@ header {
     right: 0;
     height: 100%;
 
+  }
 
-    .vauu {
-      color: #eee;
-      margin-right: 0.75em;
-      font-size: 3vh;
-    }
+  .cart {
+    position: relative;
+    color: #fff;
+    font-size: 3vh;
+  }
+
+  .reddot {
+    position: absolute;
+    top: -0.5em;
+    right: -1em;
+    border-radius: 50%;
+    height: 1.4em;
+    width: 1.4em;
+    font-size: 0.5em;
+    text-align: center;
+    color: #fff;
+    background-color: #f00;
   }
 }
 

@@ -1,8 +1,11 @@
 import { FaShoppingCart } from "react-icons/fa"
 import { Button, Card, Center, Image, Text } from '@mantine/core'
+import { useContext } from "react"
+import { context } from "../../App"
 
 export default function ProductCard(props) {
   const icon = <FaShoppingCart />
+  const [cartItems, setCartItems] = useContext(context)
   return (
     <Card
       shadow="sm"
@@ -13,7 +16,7 @@ export default function ProductCard(props) {
         <Center>
           <Image
             src={props.image}
-            w={300}
+            w={250}
             alt="No way!"
           />
         </Center>
@@ -29,9 +32,19 @@ export default function ProductCard(props) {
       </Text>
 
       <Center>
-        <Button w="50%" justify="space-between" my="lg" color='#f47422' leftSection={icon} rightSection=" ">ADD TO CART</Button>
+        {cartItems.find((el) => el === props.id) ?
+          <>
+            <Button w="15%" m="sm" color='#f47422'>-</Button>
+            <Button w="15%" m="sm" color='#f47422'>+</Button>
+          </>
+          :
+          <Button w="50%" justify="space-between" my="lg" color='#f47422' leftSection={icon} rightSection=" " onClick={() => {
+            setCartItems((prev) => [...prev, props.id])
+          }
+          }>ADD TO CART</Button>
+        }
       </Center>
 
-    </Card>
+    </Card >
   )
 }
