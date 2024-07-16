@@ -32,10 +32,15 @@ export default function ProductCard(props) {
       </Text>
 
       <Center>
-        {cartItems.find((el) => el === props.id) ?
+        {cartItems.includes(props.id) ?
           <>
-            <Button w="15%" m="sm" color='#f47422'>-</Button>
-            <Button w="15%" m="sm" color='#f47422'>+</Button>
+            <Button m="lg" color='#f47422' onClick={() => {
+              setCartItems((prev) => prev.toSpliced(prev.indexOf(props.id), 1))
+            }}>-</Button>
+            <Text size="xl">{cartItems.filter((el) => el === props.id).length}</Text>
+            <Button m="lg" color='#f47422' onClick={() => {
+              setCartItems((prev) => [...prev, props.id])
+            }}>+</Button>
           </>
           :
           <Button w="50%" justify="space-between" my="lg" color='#f47422' leftSection={icon} rightSection=" " onClick={() => {

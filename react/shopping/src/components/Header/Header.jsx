@@ -42,14 +42,19 @@ function Burger() {
               Home
             </Menu.Item>
           </NavLink>
-          <NavLink to={"/products"} >
+          <NavLink to={"/sportswear"} >
             <Menu.Item >
-              Products
+              Sportswear
             </Menu.Item>
           </NavLink>
-          <NavLink to={"/outlet"} >
+          <NavLink to={"/footwear"} >
             <Menu.Item >
-              Outlet
+              Footwear
+            </Menu.Item>
+          </NavLink>
+          <NavLink to={"/socks"} >
+            <Menu.Item >
+              socks
             </Menu.Item>
           </NavLink>
 
@@ -63,20 +68,23 @@ export default function Header() {
   const width = window.innerWidth;
 
   return (<header>
-    <div className="left" style={{ paddingLeft: width < 650 ? "0.5em" : "1.5em" }}>
+    <div className="left" style={{ paddingLeft: width < 850 ? "0.5em" : "1em" }}>
       <NavLink to="/">
         <img src={logo} />
       </NavLink>
     </div>
-    {width < 500 ?
+    {width < 700 ?
       <Burger />
       :
       <div className="right">
-        <NavLink to="/products" className={({ isActive }) => isActive ? "aktivan" : ""}>
-          <span className="vauu">Products</span>
+        <NavLink to="/sportswear" className={({ isActive }) => isActive ? "aktivan" : ""}>
+          <span className="vauu">Sportswear</span>
         </NavLink>
-        <NavLink to="/outlet" className={({ isActive }) => isActive ? "aktivan" : ""}>
-          <span className="vauu">Outlet</span>
+        <NavLink to="/footwear" className={({ isActive }) => isActive ? "aktivan" : ""}>
+          <span className="vauu">Footwear</span>
+        </NavLink>
+        <NavLink to="/socks" className={({ isActive }) => isActive ? "aktivan" : ""}>
+          <span className="vauu">Socks</span>
         </NavLink>
         <NavLink to="/cart" className={({ isActive }) => isActive ? "aktivan" : ""}>
           <Cart />

@@ -1,23 +1,22 @@
 import { Center, Grid, Pagination } from "@mantine/core"
 import ProductCard from "../../components/ProductCard/ProductCard"
-import PRODUCTS_JSON from "/src/common/products.json"
 import { useState } from "react"
 
 
-export default function Products() {
+export default function Products({ products, fallback_desc }) {
   const elementsPerPage = 6
-  const numOfPages = Math.ceil(PRODUCTS_JSON.length / elementsPerPage) - 1
+  const numOfPages = Math.ceil(products.length / elementsPerPage) - 1
   console.log(numOfPages)
-  const [page, setPage] = useState(0);
+  const [page, setPage] = useState(1);
 
   return (
     <>
       <Center>
         <Grid grow className="products-grid" w={1200} mt="md">
-          {PRODUCTS_JSON.slice(page * elementsPerPage, page * elementsPerPage + elementsPerPage).map((el) => {
+          {products.slice(page * elementsPerPage - elementsPerPage, page * elementsPerPage).map((el) => {
             return (
               <Grid.Col span={4} >
-                <ProductCard image={el.image_url} title={el.title} desc={el.short_description} cost={el.current_price} id={el.id} stock={el.stock} />
+                <ProductCard image={el.image_url} title={el.title} desc={el.short_description ? el.short_description : fallback_desc} cost={el.current_price} id={el.id} stock={el.stock} />
               </Grid.Col>
             )
           })}
