@@ -7,7 +7,8 @@
     "short_description": "Muška majica za košarku",
     "current_price": "3.679,20",
     "id": "FQ6449-422",
-    "stock": 31
+    "stock": 13,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IS3/IS3613/images/thumbs_350/IS3613_350_350px.jpg",
@@ -17,7 +18,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "2.969,10",
     "id": "IS3613",
-    "stock": 8
+    "stock": 85,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IC7/IC7430/images/thumbs_350/IC7430_350_350px.jpg",
@@ -27,7 +29,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "2.399,00",
     "id": "IC7430",
-    "stock": 125
+    "stock": 97,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV5/FV5418-010/images/thumbs_350/FV5418-010_350_350px.jpg",
@@ -37,7 +40,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "3.099,00",
     "id": "FV5418-010",
-    "stock": 72
+    "stock": 40,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/STM/STM16190-577/images/thumbs_350/STM16190-577_350_350px.jpg",
@@ -47,7 +51,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "1.999,00",
     "id": "STM16190-577",
-    "stock": 12
+    "stock": 88,
+    "discount": 42
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IR7/IR7126/images/thumbs_350/IR7126_350_350px.jpg",
@@ -57,7 +62,8 @@
     "short_description": "Muška majica za trčanje",
     "current_price": "3.599,00",
     "id": "IR7126",
-    "stock": 40
+    "stock": 39,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW3/IW3216/images/thumbs_350/IW3216_350_350px.jpg",
@@ -67,7 +73,8 @@
     "short_description": "Ženska majica za trčanje",
     "current_price": "7.199,00",
     "id": "IW3216",
-    "stock": 101
+    "stock": 25,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IX2/IX2831/images/thumbs_350/IX2831_350_350px.jpg",
@@ -77,7 +84,8 @@
     "short_description": "Muška majica za trčanje",
     "current_price": "7.199,00",
     "id": "IX2831",
-    "stock": 9
+    "stock": 84,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IS6/IS6151/images/thumbs_350/IS6151_350_350px.jpg",
@@ -87,7 +95,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "4.199,00",
     "id": "IS6151",
-    "stock": 22
+    "stock": 7,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/STM/STM10139-000/images/thumbs_350/STM10139-000_350_350px.jpg",
@@ -97,7 +106,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "1.999,00",
     "id": "STM10139-000",
-    "stock": 105
+    "stock": 28,
+    "discount": 42
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IV9/IV9759/images/thumbs_350/IV9759_350_350px.jpg",
@@ -107,7 +117,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "4.199,00",
     "id": "IV9759",
-    "stock": 75
+    "stock": 112,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IV7/IV7229/images/thumbs_350/IV7229_350_350px.jpg",
@@ -117,7 +128,8 @@
     "short_description": "Lifestyle majica za tinejdžerke",
     "current_price": "2.399,00",
     "id": "IV7229",
-    "stock": 33
+    "stock": 63,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IZ3/IZ3445/images/thumbs_350/IZ3445_350_350px.jpg",
@@ -127,7 +139,8 @@
     "short_description": "Lifestyle majica za tinejdžerke",
     "current_price": "2.199,00",
     "id": "IZ3445",
-    "stock": 126
+    "stock": 53,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV0/FV0188-515/images/thumbs_350/FV0188-515_350_350px.jpg",
@@ -137,7 +150,8 @@
     "short_description": "Lifestyle majica za tinejdžerke",
     "current_price": "4.699,00",
     "id": "FV0188-515",
-    "stock": 58
+    "stock": 63,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FZ5/FZ5561-300/images/thumbs_350/FZ5561-300_350_350px.jpg",
@@ -147,7 +161,8 @@
     "short_description": "Lifestyle majica za tinejdžerke",
     "current_price": "3.299,00",
     "id": "FZ5561-300",
-    "stock": 13
+    "stock": 33,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DH5/DH5750-503/images/thumbs_350/DH5750-503_350_350px.jpg",
@@ -157,7 +172,8 @@
     "short_description": "Lifestyle majica za tinejdžerke",
     "current_price": "2.299,00",
     "id": "DH5750-503",
-    "stock": 85
+    "stock": 89,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV5/FV5495-010/images/thumbs_350/FV5495-010_350_350px.jpg",
@@ -167,7 +183,8 @@
     "short_description": "Lifestyle majica za tinejdžerke",
     "current_price": "2.799,00",
     "id": "FV5495-010",
-    "stock": 77
+    "stock": 118,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW3/IW3493/images/thumbs_350/IW3493_350_350px.jpg",
@@ -177,7 +194,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "2.999,00",
     "id": "IW3493",
-    "stock": 0
+    "stock": 15,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW7/IW7952/images/thumbs_350/IW7952_350_350px.jpg",
@@ -187,7 +205,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "2.999,00",
     "id": "IW7952",
-    "stock": 71
+    "stock": 17,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV8/FV8402-084/images/thumbs_350/FV8402-084_350_350px.jpg",
@@ -197,7 +216,8 @@
     "short_description": "Muška majica za košarku",
     "current_price": "3.999,00",
     "id": "FV8402-084",
-    "stock": 78
+    "stock": 99,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/WT4/WT41502-LIN/images/thumbs_350/WT41502-LIN_350_350px.jpg",
@@ -207,7 +227,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "3.199,00",
     "id": "WT41502-LIN",
-    "stock": 127
+    "stock": 44,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN8/FN8407-628/images/thumbs_350/FN8407-628_350_350px.jpg",
@@ -217,7 +238,8 @@
     "short_description": "Majica za fudbal za tinejdžere",
     "current_price": "3.499,00",
     "id": "FN8407-628",
-    "stock": 11
+    "stock": 90,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV5/FV5325-100/images/thumbs_350/FV5325-100_350_350px.jpg",
@@ -227,7 +249,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "2.599,00",
     "id": "FV5325-100",
-    "stock": 37
+    "stock": 68,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FZ5/FZ5177-386/images/thumbs_350/FZ5177-386_350_350px.jpg",
@@ -237,7 +260,8 @@
     "short_description": "Uniseks lifestyle majica za tinejdžere",
     "current_price": "2.399,00",
     "id": "FZ5177-386",
-    "stock": 83
+    "stock": 69,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FD3/FD3971-412/images/thumbs_350/FD3971-412_350_350px.jpg",
@@ -247,7 +271,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "2.599,00",
     "id": "FD3971-412",
-    "stock": 63
+    "stock": 63,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/AR5/AR5252-361/images/thumbs_350/AR5252-361_350_350px.jpg",
@@ -257,7 +282,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "2.599,00",
     "id": "AR5252-361",
-    "stock": 4
+    "stock": 91,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN9/FN9667-010/images/thumbs_350/FN9667-010_350_350px.jpg",
@@ -267,7 +293,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "2.599,00",
     "id": "FN9667-010",
-    "stock": 79
+    "stock": 107,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN9/FN9667-100/images/thumbs_350/FN9667-100_350_350px.jpg",
@@ -277,7 +304,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "2.599,00",
     "id": "FN9667-100",
-    "stock": 39
+    "stock": 21,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV8/FV8870-010/images/thumbs_350/FV8870-010_350_350px.jpg",
@@ -287,7 +315,8 @@
     "short_description": "Muška majica za košarku",
     "current_price": "4.099,00",
     "id": "FV8870-010",
-    "stock": 74
+    "stock": 25,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FZ8/FZ8073-478/images/thumbs_350/FZ8073-478_350_350px.jpg",
@@ -297,7 +326,8 @@
     "short_description": "Muška majica za košarku",
     "current_price": "6.599,00",
     "id": "FZ8073-478",
-    "stock": 49
+    "stock": 91,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV9/FV9418-010/images/thumbs_350/FV9418-010_350_350px.jpg",
@@ -307,7 +337,8 @@
     "short_description": "Muška majica za fudbal",
     "current_price": "3.099,00",
     "id": "FV9418-010",
-    "stock": 51
+    "stock": 30,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FZ0/FZ0140-010/images/thumbs_350/FZ0140-010_350_350px.jpg",
@@ -317,7 +348,8 @@
     "short_description": "Majica za fudbal za tinejdžere",
     "current_price": "2.599,00",
     "id": "FZ0140-010",
-    "stock": 104
+    "stock": 17,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IV9/IV9643/images/thumbs_350/IV9643_350_350px.jpg",
@@ -327,7 +359,8 @@
     "short_description": "Uniseks lifestyle majica za bebe",
     "current_price": "3.599,00",
     "id": "IV9643",
-    "stock": 114
+    "stock": 58,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IV9/IV9631/images/thumbs_350/IV9631_350_350px.jpg",
@@ -337,27 +370,30 @@
     "short_description": "Lifestyle majica za dečake",
     "current_price": "3.599,00",
     "id": "IV9631",
-    "stock": 39
+    "stock": 66,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/SSA/SSA243F803-11/images/thumbs_350/SSA243F803-11_350_350px.jpg",
     "image_url_high_res": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/SSA/SSA243F803-11/images/thumbs_800/SSA243F803-11_800_800px.jpg",
-    "brand_name": "SOUL STUDIO",
-    "title": "SOUL STUDIO LOUNGE SHORT T SHIRT",
+    "brand_name": "Soul Studio",
+    "title": "Soul Studio LOUNGE SHORT T SHIRT",
     "short_description": "Ženska lifestyle majica",
     "current_price": "2.799,00",
     "id": "SSA243F803-11",
-    "stock": 16
+    "stock": 47,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/SSA/SSA243F801-52/images/thumbs_350/SSA243F801-52_350_350px.jpg",
     "image_url_high_res": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/SSA/SSA243F801-52/images/thumbs_800/SSA243F801-52_800_800px.jpg",
-    "brand_name": "SOUL STUDIO",
-    "title": "SOUL STUDIO LOUNGE T SHIRT",
+    "brand_name": "Soul Studio",
+    "title": "Soul Studio LOUNGE T SHIRT",
     "short_description": "Ženska lifestyle majica",
     "current_price": "2.799,00",
     "id": "SSA243F801-52",
-    "stock": 18
+    "stock": 44,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/JE0/JE0346/images/thumbs_350/JE0346_350_350px.jpg",
@@ -367,7 +403,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.399,00",
     "id": "JE0346",
-    "stock": 31
+    "stock": 0,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY2/IY2446/images/thumbs_350/IY2446_350_350px.jpg",
@@ -377,7 +414,8 @@
     "short_description": "Muška majica za trčanje",
     "current_price": "4.199,00",
     "id": "IY2446",
-    "stock": 84
+    "stock": 20,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW2/IW2677/images/thumbs_350/IW2677_350_350px.jpg",
@@ -387,7 +425,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "4.199,00",
     "id": "IW2677",
-    "stock": 45
+    "stock": 102,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW2/IW2675/images/thumbs_350/IW2675_350_350px.jpg",
@@ -397,7 +436,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.599,00",
     "id": "IW2675",
-    "stock": 7
+    "stock": 125,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IX0/IX0137/images/thumbs_350/IX0137_350_350px.jpg",
@@ -407,7 +447,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.399,00",
     "id": "IX0137",
-    "stock": 16
+    "stock": 10,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IC9/IC9347/images/thumbs_350/IC9347_350_350px.jpg",
@@ -417,7 +458,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.399,00",
     "id": "IC9347",
-    "stock": 26
+    "stock": 7,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY0/IY0741/images/thumbs_350/IY0741_350_350px.jpg",
@@ -427,7 +469,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "2.999,00",
     "id": "IY0741",
-    "stock": 73
+    "stock": 65,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW2/IW2671/images/thumbs_350/IW2671_350_350px.jpg",
@@ -437,7 +480,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "2.999,00",
     "id": "IW2671",
-    "stock": 20
+    "stock": 43,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW2/IW2640/images/thumbs_350/IW2640_350_350px.jpg",
@@ -447,7 +491,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.399,00",
     "id": "IW2640",
-    "stock": 111
+    "stock": 76,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY0/IY0732/images/thumbs_350/IY0732_350_350px.jpg",
@@ -457,7 +502,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.399,00",
     "id": "IY0732",
-    "stock": 97
+    "stock": 60,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY8/IY8072/images/thumbs_350/IY8072_350_350px.jpg",
@@ -467,7 +513,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.399,00",
     "id": "IY8072",
-    "stock": 53
+    "stock": 111,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY7/IY7735/images/thumbs_350/IY7735_350_350px.jpg",
@@ -477,7 +524,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "4.199,00",
     "id": "IY7735",
-    "stock": 126
+    "stock": 48,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY7/IY7716/images/thumbs_350/IY7716_350_350px.jpg",
@@ -487,7 +535,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "4.199,00",
     "id": "IY7716",
-    "stock": 96
+    "stock": 48,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB7/FB7465-010/images/thumbs_350/FB7465-010_350_350px.jpg",
@@ -497,7 +546,8 @@
     "short_description": "Muška majica za košarku",
     "current_price": "3.599,00",
     "id": "FB7465-010",
-    "stock": 102
+    "stock": 39,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB7/FB7465-687/images/thumbs_350/FB7465-687_350_350px.jpg",
@@ -507,7 +557,8 @@
     "short_description": "Muška majica za košarku",
     "current_price": "3.599,00",
     "id": "FB7465-687",
-    "stock": 72
+    "stock": 7,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN2/FN2979-493/images/thumbs_350/FN2979-493_350_350px.jpg",
@@ -517,7 +568,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "6.299,00",
     "id": "FN2979-493",
-    "stock": 43
+    "stock": 76,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV9/DV9321-376/images/thumbs_350/DV9321-376_350_350px.jpg",
@@ -527,7 +579,8 @@
     "short_description": "Muška majica za trčanje",
     "current_price": "2.999,00",
     "id": "DV9321-376",
-    "stock": 58
+    "stock": 101,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN2/FN2399-628/images/thumbs_350/FN2399-628_350_350px.jpg",
@@ -537,7 +590,8 @@
     "short_description": "Muška majica za fudbal",
     "current_price": "3.999,00",
     "id": "FN2399-628",
-    "stock": 16
+    "stock": 73,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV8/FV8366-010/images/thumbs_350/FV8366-010_350_350px.jpg",
@@ -547,7 +601,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "3.499,00",
     "id": "FV8366-010",
-    "stock": 70
+    "stock": 96,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FQ3/FQ3872-493/images/thumbs_350/FQ3872-493_350_350px.jpg",
@@ -557,7 +612,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "3.499,00",
     "id": "FQ3872-493",
-    "stock": 3
+    "stock": 121,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FZ8/FZ8040-222/images/thumbs_350/FZ8040-222_350_350px.jpg",
@@ -567,7 +623,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "4.399,00",
     "id": "FZ8040-222",
-    "stock": 40
+    "stock": 65,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV8/FV8370-100/images/thumbs_350/FV8370-100_350_350px.jpg",
@@ -577,7 +634,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "3.599,00",
     "id": "FV8370-100",
-    "stock": 62
+    "stock": 31,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FQ3/FQ3914-846/images/thumbs_350/FQ3914-846_350_350px.jpg",
@@ -587,7 +645,8 @@
     "short_description": "Muška majica za trčanje",
     "current_price": "4.599,00",
     "id": "FQ3914-846",
-    "stock": 82
+    "stock": 59,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV9/DV9315-338/images/thumbs_350/DV9315-338_350_350px.jpg",
@@ -597,7 +656,8 @@
     "short_description": "Muška majica za trčanje",
     "current_price": "3.599,00",
     "id": "DV9315-338",
-    "stock": 4
+    "stock": 23,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV9/DV9315-376/images/thumbs_350/DV9315-376_350_350px.jpg",
@@ -607,7 +667,8 @@
     "short_description": "Muška majica za trčanje",
     "current_price": "3.599,00",
     "id": "DV9315-376",
-    "stock": 26
+    "stock": 79,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN3/FN3996-121/images/thumbs_350/FN3996-121_350_350px.jpg",
@@ -617,7 +678,8 @@
     "short_description": "Muška majica za trčanje",
     "current_price": "5.499,00",
     "id": "FN3996-121",
-    "stock": 45
+    "stock": 100,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/AR4/AR4997-718/images/thumbs_350/AR4997-718_350_350px.jpg",
@@ -627,7 +689,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "2.599,00",
     "id": "AR4997-718",
-    "stock": 30
+    "stock": 7,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN0/FN0248-069/images/thumbs_350/FN0248-069_350_350px.jpg",
@@ -637,7 +700,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "2.999,00",
     "id": "FN0248-069",
-    "stock": 63
+    "stock": 100,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN0/FN0248-133/images/thumbs_350/FN0248-133_350_350px.jpg",
@@ -647,7 +711,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "2.999,00",
     "id": "FN0248-133",
-    "stock": 86
+    "stock": 75,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN0/FN0248-323/images/thumbs_350/FN0248-323_350_350px.jpg",
@@ -657,7 +722,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "2.999,00",
     "id": "FN0248-323",
-    "stock": 20
+    "stock": 67,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FQ7/FQ7995-100/images/thumbs_350/FQ7995-100_350_350px.jpg",
@@ -667,7 +733,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.499,00",
     "id": "FQ7995-100",
-    "stock": 3
+    "stock": 64,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FQ7/FQ7995-010/images/thumbs_350/FQ7995-010_350_350px.jpg",
@@ -677,7 +744,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.679,20",
     "id": "FQ7995-010",
-    "stock": 127
+    "stock": 68,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/AR5/AR5006-437/images/thumbs_350/AR5006-437_350_350px.jpg",
@@ -687,7 +755,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "2.599,00",
     "id": "AR5006-437",
-    "stock": 110
+    "stock": 74,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY0/IY0731/images/thumbs_350/IY0731_350_350px.jpg",
@@ -697,7 +766,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.399,00",
     "id": "IY0731",
-    "stock": 87
+    "stock": 116,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY0/IY0727/images/thumbs_350/IY0727_350_350px.jpg",
@@ -707,7 +777,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "3.399,00",
     "id": "IY0727",
-    "stock": 10
+    "stock": 105,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IT1/IT1497/images/thumbs_350/IT1497_350_350px.jpg",
@@ -717,7 +788,19 @@
     "short_description": "Muška majica za trening",
     "current_price": "4.199,00",
     "id": "IT1497",
-    "stock": 101
+    "stock": 23,
+    "discount": 0
+  },
+  {
+    "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IR5/IR5238/images/thumbs_350/IR5238_350_350px.jpg",
+    "image_url_high_res": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IR5/IR5238/images/thumbs_800/IR5238_800_800px.jpg",
+    "brand_name": "adidas",
+    "title": "adidas Z.N.E.",
+    "short_description": "Muška lifestyle majica",
+    "current_price": "1.999,00",
+    "id": "IR5238",
+    "stock": 8,
+    "discount": 58
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/NES/NESSE512-302/images/thumbs_350/NESSE512-302_350_350px.jpg",
@@ -727,7 +810,8 @@
     "short_description": "Muška majica za plivanje",
     "current_price": "4.799,00",
     "id": "NESSE512-302",
-    "stock": 30
+    "stock": 10,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/199/1992081117/images/thumbs_350/1992081117_350_350px.jpg",
@@ -737,7 +821,8 @@
     "short_description": "Ženska outdoor majica",
     "current_price": "2.399,00",
     "id": "1992081117",
-    "stock": 86
+    "stock": 89,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/199/1992081352/images/thumbs_350/1992081352_350_350px.jpg",
@@ -747,7 +832,8 @@
     "short_description": "Ženska outdoor majica",
     "current_price": "2.399,00",
     "id": "1992081352",
-    "stock": 68
+    "stock": 40,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY1/IY1160/images/thumbs_350/IY1160_350_350px.jpg",
@@ -757,17 +843,19 @@
     "short_description": "Muška majica za košarku",
     "current_price": "3.599,00",
     "id": "IY1160",
-    "stock": 35
+    "stock": 52,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV5/DV5792-013/images/thumbs_350/DV5792-013_350_350px.jpg",
     "image_url_high_res": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV5/DV5792-013/images/thumbs_800/DV5792-013_800_800px.jpg",
     "brand_name": "Nike",
     "title": "Nike PHX M NK ES STMT NN TEE",
-    "short_description": "",
+    "short_description": "Muška majica za košarku",
     "current_price": "4.599,00",
     "id": "DV5792-013",
-    "stock": 60
+    "stock": 73,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW2/IW2477/images/thumbs_350/IW2477_350_350px.jpg",
@@ -777,7 +865,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "2.799,00",
     "id": "IW2477",
-    "stock": 81
+    "stock": 88,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV8/FV8558-100/images/thumbs_350/FV8558-100_350_350px.jpg",
@@ -787,7 +876,8 @@
     "short_description": "Muška majica za fudbal",
     "current_price": "2.999,00",
     "id": "FV8558-100",
-    "stock": 20
+    "stock": 0,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV9/FV9417-100/images/thumbs_350/FV9417-100_350_350px.jpg",
@@ -797,7 +887,8 @@
     "short_description": "Muška majica za fudbal",
     "current_price": "3.099,00",
     "id": "FV9417-100",
-    "stock": 39
+    "stock": 3,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV8/FV8637-010/images/thumbs_350/FV8637-010_350_350px.jpg",
@@ -807,7 +898,8 @@
     "short_description": "Muška majica za fudbal",
     "current_price": "3.099,00",
     "id": "FV8637-010",
-    "stock": 74
+    "stock": 109,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IL7/IL7227/images/thumbs_350/IL7227_350_350px.jpg",
@@ -817,17 +909,19 @@
     "short_description": "Ženska majica za trčanje",
     "current_price": "3.599,00",
     "id": "IL7227",
-    "stock": 97
+    "stock": 115,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/MT4/MT41502-BK/images/thumbs_350/MT41502-BK_350_350px.jpg",
     "image_url_high_res": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/MT4/MT41502-BK/images/thumbs_800/MT41502-BK_800_800px.jpg",
     "brand_name": "New Balance",
     "title": "New Balance Sport Essentials Logo T-Shirt",
-    "short_description": "",
+    "short_description": "Muška lifestyle majica",
     "current_price": "2.799,00",
     "id": "MT41502-BK",
-    "stock": 14
+    "stock": 35,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/JE6/JE6698/images/thumbs_350/JE6698_350_350px.jpg",
@@ -837,7 +931,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "4.199,00",
     "id": "JE6698",
-    "stock": 31
+    "stock": 120,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/JE6/JE6700/images/thumbs_350/JE6700_350_350px.jpg",
@@ -847,7 +942,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "4.199,00",
     "id": "JE6700",
-    "stock": 122
+    "stock": 98,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW8/IW8148/images/thumbs_350/IW8148_350_350px.jpg",
@@ -857,7 +953,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "3.399,00",
     "id": "IW8148",
-    "stock": 44
+    "stock": 67,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IC7/IC7428/images/thumbs_350/IC7428_350_350px.jpg",
@@ -867,7 +964,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "2.399,00",
     "id": "IC7428",
-    "stock": 38
+    "stock": 28,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW3/IW3353/images/thumbs_350/IW3353_350_350px.jpg",
@@ -877,7 +975,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "2.399,00",
     "id": "IW3353",
-    "stock": 55
+    "stock": 43,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/405/40518-228/images/thumbs_350/40518-228_350_350px.jpg",
@@ -887,7 +986,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "1.999,20",
     "id": "40518-228",
-    "stock": 84
+    "stock": 119,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IX9/IX9529/images/thumbs_350/IX9529_350_350px.jpg",
@@ -897,7 +997,8 @@
     "short_description": "Lifestyle majica za tinejdžere",
     "current_price": "2.399,00",
     "id": "IX9529",
-    "stock": 71
+    "stock": 44,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/136/1361673-273/images/thumbs_350/1361673-273_350_350px.jpg",
@@ -907,7 +1008,8 @@
     "short_description": "Muška majica za trening",
     "current_price": "2.599,00",
     "id": "1361673-273",
-    "stock": 113
+    "stock": 15,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY0/IY0722/images/thumbs_350/IY0722_350_350px.jpg",
@@ -917,7 +1019,8 @@
     "short_description": "Muška majica za trčanje",
     "current_price": "5.999,00",
     "id": "IY0722",
-    "stock": 35
+    "stock": 18,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IX6/IX6448/images/thumbs_350/IX6448_350_350px.jpg",
@@ -927,7 +1030,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "3.399,00",
     "id": "IX6448",
-    "stock": 101
+    "stock": 28,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IX6/IX6450/images/thumbs_350/IX6450_350_350px.jpg",
@@ -937,7 +1041,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "3.399,00",
     "id": "IX6450",
-    "stock": 63
+    "stock": 32,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IX6/IX6449/images/thumbs_350/IX6449_350_350px.jpg",
@@ -947,7 +1052,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "3.399,00",
     "id": "IX6449",
-    "stock": 118
+    "stock": 86,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY4/IY4323/images/thumbs_350/IY4323_350_350px.jpg",
@@ -957,7 +1063,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "3.399,00",
     "id": "IY4323",
-    "stock": 51
+    "stock": 19,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IY4/IY4322/images/thumbs_350/IY4322_350_350px.jpg",
@@ -967,7 +1074,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "3.399,00",
     "id": "IY4322",
-    "stock": 46
+    "stock": 120,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW5/IW5203/images/thumbs_350/IW5203_350_350px.jpg",
@@ -977,7 +1085,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "4.199,00",
     "id": "IW5203",
-    "stock": 28
+    "stock": 41,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW5/IW5262/images/thumbs_350/IW5262_350_350px.jpg",
@@ -987,7 +1096,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "4.199,00",
     "id": "IW5262",
-    "stock": 99
+    "stock": 97,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV4/FV4298-100/images/thumbs_350/FV4298-100_350_350px.jpg",
@@ -997,7 +1107,8 @@
     "short_description": "Ženska majica za trening",
     "current_price": "3.099,00",
     "id": "FV4298-100",
-    "stock": 94
+    "stock": 33,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV6/FV6373-010/images/thumbs_350/FV6373-010_350_350px.jpg",
@@ -1007,7 +1118,8 @@
     "short_description": "Ženska majica za trčanje",
     "current_price": "5.299,00",
     "id": "FV6373-010",
-    "stock": 61
+    "stock": 14,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV6/FV6373-629/images/thumbs_350/FV6373-629_350_350px.jpg",
@@ -1017,7 +1129,8 @@
     "short_description": "Ženska majica za trčanje",
     "current_price": "5.299,00",
     "id": "FV6373-629",
-    "stock": 40
+    "stock": 7,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN2/FN2618-361/images/thumbs_350/FN2618-361_350_350px.jpg",
@@ -1027,7 +1140,8 @@
     "short_description": "Ženska majica za trčanje",
     "current_price": "3.999,00",
     "id": "FN2618-361",
-    "stock": 81
+    "stock": 29,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN2/FN2606-512/images/thumbs_350/FN2606-512_350_350px.jpg",
@@ -1037,7 +1151,8 @@
     "short_description": "Ženska majica za trčanje",
     "current_price": "3.499,00",
     "id": "FN2606-512",
-    "stock": 57
+    "stock": 56,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV5/FV5508-100/images/thumbs_350/FV5508-100_350_350px.jpg",
@@ -1047,7 +1162,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "3.599,00",
     "id": "FV5508-100",
-    "stock": 69
+    "stock": 95,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DX7/DX7902-113/images/thumbs_350/DX7902-113_350_350px.jpg",
@@ -1057,7 +1173,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "2.599,00",
     "id": "DX7902-113",
-    "stock": 34
+    "stock": 86,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DX7/DX7906-545/images/thumbs_350/DX7906-545_350_350px.jpg",
@@ -1067,7 +1184,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "3.099,00",
     "id": "DX7906-545",
-    "stock": 85
+    "stock": 81,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DX7/DX7906-113/images/thumbs_350/DX7906-113_350_350px.jpg",
@@ -1077,7 +1195,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "3.099,00",
     "id": "DX7906-113",
-    "stock": 25
+    "stock": 111,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV4/FV4230-100/images/thumbs_350/FV4230-100_350_350px.jpg",
@@ -1087,7 +1206,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "3.499,00",
     "id": "FV4230-100",
-    "stock": 71
+    "stock": 107,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FV4/FV4262-010/images/thumbs_350/FV4262-010_350_350px.jpg",
@@ -1097,7 +1217,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "4.099,00",
     "id": "FV4262-010",
-    "stock": 46
+    "stock": 89,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IS7/IS7093/images/thumbs_350/IS7093_350_350px.jpg",
@@ -1107,7 +1228,8 @@
     "short_description": "Ženska majica za trening",
     "current_price": "4.199,00",
     "id": "IS7093",
-    "stock": 107
+    "stock": 121,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW2/IW2484/images/thumbs_350/IW2484_350_350px.jpg",
@@ -1117,7 +1239,8 @@
     "short_description": "Lifestyle majica za tinejdžerke",
     "current_price": "2.999,00",
     "id": "IW2484",
-    "stock": 85
+    "stock": 27,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IW0/IW0184/images/thumbs_350/IW0184_350_350px.jpg",
@@ -1127,7 +1250,8 @@
     "short_description": "Majica za fudbal za tinejdžere",
     "current_price": "3.599,00",
     "id": "IW0184",
-    "stock": 8
+    "stock": 40,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN2/FN2618-405/images/thumbs_350/FN2618-405_350_350px.jpg",
@@ -1137,7 +1261,8 @@
     "short_description": "Ženska majica za trčanje",
     "current_price": "4.099,00",
     "id": "FN2618-405",
-    "stock": 85
+    "stock": 11,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/679/679001-86/images/thumbs_350/679001-86_350_350px.jpg",
@@ -1147,7 +1272,8 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "2.699,00",
     "id": "679001-86",
-    "stock": 16
+    "stock": 115,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/LNA/LNA241F801-10/images/thumbs_350/LNA241F801-10_350_350px.jpg",
@@ -1157,7 +1283,8 @@
     "short_description": "Ženska lifestyle majica",
     "current_price": "799,20",
     "id": "LNA241F801-10",
-    "stock": 88
+    "stock": 113,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/679/679001-99/images/thumbs_350/679001-99_350_350px.jpg",
@@ -1167,7 +1294,19 @@
     "short_description": "Muška lifestyle majica",
     "current_price": "2.699,00",
     "id": "679001-99",
-    "stock": 17
+    "stock": 59,
+    "discount": 20
+  },
+  {
+    "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/LNA/LNA241F801-92/images/thumbs_350/LNA241F801-92_350_350px.jpg",
+    "image_url_high_res": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/LNA/LNA241F801-92/images/thumbs_800/LNA241F801-92_800_800px.jpg",
+    "brand_name": "Lonsdale",
+    "title": "Lonsdale Orig.Col.",
+    "short_description": "Ženska lifestyle majica",
+    "current_price": "799,20",
+    "id": "LNA241F801-92",
+    "stock": 2,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/138/1383194-176/images/thumbs_350/1383194-176_350_350px.jpg",
@@ -1177,26 +1316,7 @@
     "short_description": "Muška majica za trening",
     "current_price": "4.319,10",
     "id": "1383194-176",
-    "stock": 66
-  },
-  {
-    "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FQ4/FQ4906-010/images/thumbs_350/FQ4906-010_350_350px.jpg",
-    "image_url_high_res": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FQ4/FQ4906-010/images/thumbs_800/FQ4906-010_800_800px.jpg",
-    "brand_name": "Nike",
-    "title": "Nike LeBron",
-    "short_description": "Muška majica za košarku",
-    "current_price": "5.199,00",
-    "id": "FQ4906-010",
-    "stock": 118
-  },
-  {
-    "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/138/1383220-001/images/thumbs_350/1383220-001_350_350px.jpg",
-    "image_url_high_res": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/138/1383220-001/images/thumbs_800/1383220-001_800_800px.jpg",
-    "brand_name": "Under Armour",
-    "title": "Under Armour Project Rock",
-    "short_description": "Muška majica za trening",
-    "current_price": "4.679,10",
-    "id": "1383220-001",
-    "stock": 31
+    "stock": 45,
+    "discount": 0
   }
 ]

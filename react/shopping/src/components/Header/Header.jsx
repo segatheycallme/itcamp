@@ -31,9 +31,9 @@ function Burger() {
           <Cart />
         </NavLink>
         <Menu.Target>
-          <div>
-            <GiHamburgerMenu style={{ color: "#eee", marginRight: "0.5em", marginLeft: "0.5em", fontSize: "3.5vh" }} />
-          </div>
+          <Center>
+            <GiHamburgerMenu style={{ color: "#eee", marginRight: "0.5em", marginLeft: "0.5em", fontSize: "2em" }} />
+          </Center>
         </Menu.Target>
 
         <Menu.Dropdown>
@@ -54,7 +54,7 @@ function Burger() {
           </NavLink>
           <NavLink to={"/socks"} >
             <Menu.Item >
-              socks
+              Socks
             </Menu.Item>
           </NavLink>
 
@@ -70,7 +70,9 @@ export default function Header() {
   return (<header>
     <div className="left" style={{ paddingLeft: width < 850 ? "0.5em" : "1em" }}>
       <NavLink to="/">
-        <img src={logo} />
+        <Center>
+          <img src={logo} />
+        </Center>
       </NavLink>
     </div>
     {width < 700 ?

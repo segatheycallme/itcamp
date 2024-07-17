@@ -7,7 +7,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "8.399,00",
     "id": "ID6285",
-    "stock": 27
+    "stock": 15,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV4/DV4022-103/images/thumbs_350/DV4022-103_350_350px.jpg",
@@ -17,7 +18,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "10.999,00",
     "id": "DV4022-103",
-    "stock": 13
+    "stock": 36,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/MR5/MR530RE/images/thumbs_350/MR530RE_350_350px.jpg",
@@ -27,7 +29,8 @@
     "short_description": "Lifestyle patike za odrasle",
     "current_price": "8.639,21",
     "id": "MR530RE",
-    "stock": 8
+    "stock": 39,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID2/ID2952/images/thumbs_350/ID2952_350_350px.jpg",
@@ -37,7 +40,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "7.499,00",
     "id": "ID2952",
-    "stock": 120
+    "stock": 25,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB9/FB9658-100/images/thumbs_350/FB9658-100_350_350px.jpg",
@@ -47,7 +51,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "14.399,00",
     "id": "FB9658-100",
-    "stock": 38
+    "stock": 111,
+    "discount": 30
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IE4/IE4842/images/thumbs_350/IE4842_350_350px.jpg",
@@ -57,7 +62,8 @@
     "short_description": "Muške outdoor patike",
     "current_price": "8.499,00",
     "id": "IE4842",
-    "stock": 70
+    "stock": 107,
+    "discount": 29
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CD4/CD4165-100/images/thumbs_350/CD4165-100_350_350px.jpg",
@@ -67,7 +73,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "11.999,00",
     "id": "CD4165-100",
-    "stock": 21
+    "stock": 123,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG4/IG4768/images/thumbs_350/IG4768_350_350px.jpg",
@@ -77,7 +84,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "9.699,00",
     "id": "IG4768",
-    "stock": 53
+    "stock": 89,
+    "discount": 32
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/687/687977-114/images/thumbs_350/687977-114_350_350px.jpg",
@@ -87,7 +95,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "13.299,00",
     "id": "687977-114",
-    "stock": 33
+    "stock": 110,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID7/ID7690/images/thumbs_350/ID7690_350_350px.jpg",
@@ -97,7 +106,8 @@
     "short_description": "Muške outdoor patike",
     "current_price": "14.399,00",
     "id": "ID7690",
-    "stock": 51
+    "stock": 39,
+    "discount": 28
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/HP6/HP6009/images/thumbs_350/HP6009_350_350px.jpg",
@@ -107,7 +117,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "5.199,00",
     "id": "HP6009",
-    "stock": 89
+    "stock": 59,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CW4/CW4555-107/images/thumbs_350/CW4555-107_350_350px.jpg",
@@ -117,7 +128,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "9.499,00",
     "id": "CW4555-107",
-    "stock": 54
+    "stock": 127,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID6/ID6284/images/thumbs_350/ID6284_350_350px.jpg",
@@ -127,7 +139,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "6.399,00",
     "id": "ID6284",
-    "stock": 39
+    "stock": 24,
+    "discount": 28
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/H00/H00462/images/thumbs_350/H00462_350_350px.jpg",
@@ -137,7 +150,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "6.699,00",
     "id": "H00462",
-    "stock": 69
+    "stock": 3,
+    "discount": 30
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/749/749680-001/images/thumbs_350/749680-001_350_350px.jpg",
@@ -147,7 +161,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "10.999,00",
     "id": "749680-001",
-    "stock": 97
+    "stock": 45,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GW3/GW3848/images/thumbs_350/GW3848_350_350px.jpg",
@@ -157,7 +172,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "4.999,00",
     "id": "GW3848",
-    "stock": 101
+    "stock": 3,
+    "discount": 24
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV2/DV2020-001/images/thumbs_350/DV2020-001_350_350px.jpg",
@@ -167,7 +183,8 @@
     "short_description": "Muške patike za tenis",
     "current_price": "13.399,00",
     "id": "DV2020-001",
-    "stock": 2
+    "stock": 96,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG7/IG7317/images/thumbs_350/IG7317_350_350px.jpg",
@@ -177,7 +194,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "8.499,00",
     "id": "IG7317",
-    "stock": 90
+    "stock": 125,
+    "discount": 29
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV4/DV4022-003/images/thumbs_350/DV4022-003_350_350px.jpg",
@@ -187,7 +205,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "9.799,00",
     "id": "DV4022-003",
-    "stock": 37
+    "stock": 17,
+    "discount": 30
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FZ5/FZ5055-101/images/thumbs_350/FZ5055-101_350_350px.jpg",
@@ -197,7 +216,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "12.999,00",
     "id": "FZ5055-101",
-    "stock": 25
+    "stock": 83,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV3/DV3853-002/images/thumbs_350/DV3853-002_350_350px.jpg",
@@ -207,7 +227,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "12.999,00",
     "id": "DV3853-002",
-    "stock": 84
+    "stock": 44,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID7/ID7110/images/thumbs_350/ID7110_350_350px.jpg",
@@ -217,7 +238,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "5.699,00",
     "id": "ID7110",
-    "stock": 12
+    "stock": 20,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM0/DM0829-001/images/thumbs_350/DM0829-001_350_350px.jpg",
@@ -227,7 +249,8 @@
     "short_description": "Muške patike za trening",
     "current_price": "8.899,00",
     "id": "DM0829-001",
-    "stock": 36
+    "stock": 93,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID9/ID9398/images/thumbs_350/ID9398_350_350px.jpg",
@@ -237,7 +260,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "7.499,00",
     "id": "ID9398",
-    "stock": 111
+    "stock": 27,
+    "discount": 30
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FQ8/FQ8111-331/images/thumbs_350/FQ8111-331_350_350px.jpg",
@@ -247,7 +271,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "14.479,20",
     "id": "FQ8111-331",
-    "stock": 116
+    "stock": 55,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DA6/DA6364-101/images/thumbs_350/DA6364-101_350_350px.jpg",
@@ -257,7 +282,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "9.999,00",
     "id": "DA6364-101",
-    "stock": 56
+    "stock": 26,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB2/FB2207-400/images/thumbs_350/FB2207-400_350_350px.jpg",
@@ -267,7 +293,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "6.499,00",
     "id": "FB2207-400",
-    "stock": 127
+    "stock": 83,
+    "discount": 24
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID6/ID6275/images/thumbs_350/ID6275_350_350px.jpg",
@@ -277,7 +304,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "6.699,00",
     "id": "ID6275",
-    "stock": 44
+    "stock": 90,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DH0/DH0623-403/images/thumbs_350/DH0623-403_350_350px.jpg",
@@ -287,7 +315,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "16.499,00",
     "id": "DH0623-403",
-    "stock": 106
+    "stock": 79,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DJ7/DJ7381-006/images/thumbs_350/DJ7381-006_350_350px.jpg",
@@ -297,7 +326,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "13.399,00",
     "id": "DJ7381-006",
-    "stock": 94
+    "stock": 104,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF7/IF7487/images/thumbs_350/IF7487_350_350px.jpg",
@@ -307,7 +337,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "6.719,21",
     "id": "IF7487",
-    "stock": 15
+    "stock": 4,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CK2/CK2944-002/images/thumbs_350/CK2944-002_350_350px.jpg",
@@ -317,7 +348,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "7.899,00",
     "id": "CK2944-002",
-    "stock": 53
+    "stock": 91,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DZ4/DZ4353-008/images/thumbs_350/DZ4353-008_350_350px.jpg",
@@ -327,7 +359,8 @@
     "short_description": "Muške patike za košarku",
     "current_price": "12.999,00",
     "id": "DZ4353-008",
-    "stock": 47
+    "stock": 127,
+    "discount": 24
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB1/FB1396-106/images/thumbs_350/FB1396-106_350_350px.jpg",
@@ -337,7 +370,8 @@
     "short_description": "Muške patike za košarku",
     "current_price": "12.639,19",
     "id": "FB1396-106",
-    "stock": 97
+    "stock": 80,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CK0/CK0898-400/images/thumbs_350/CK0898-400_350_350px.jpg",
@@ -347,7 +381,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "10.999,00",
     "id": "CK0898-400",
-    "stock": 60
+    "stock": 94,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DZ3/DZ3320-200/images/thumbs_350/DZ3320-200_350_350px.jpg",
@@ -357,7 +392,8 @@
     "short_description": "Muške patike za košarku",
     "current_price": "12.639,19",
     "id": "DZ3320-200",
-    "stock": 117
+    "stock": 9,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/BV1/BV1171-100/images/thumbs_350/BV1171-100_350_350px.jpg",
@@ -367,7 +403,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "13.299,00",
     "id": "BV1171-100",
-    "stock": 35
+    "stock": 59,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DN3/DN3686-110/images/thumbs_350/DN3686-110_350_350px.jpg",
@@ -377,7 +414,8 @@
     "short_description": "Muške patike za košarku",
     "current_price": "15.699,00",
     "id": "DN3686-110",
-    "stock": 117
+    "stock": 31,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM0/DM0829-010/images/thumbs_350/DM0829-010_350_350px.jpg",
@@ -387,7 +425,8 @@
     "short_description": "Muške patike za trening",
     "current_price": "8.899,00",
     "id": "DM0829-010",
-    "stock": 0
+    "stock": 73,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DH2/DH2987-001/images/thumbs_350/DH2987-001_350_350px.jpg",
@@ -397,7 +436,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "7.999,00",
     "id": "DH2987-001",
-    "stock": 23
+    "stock": 18,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM0/DM0829-403/images/thumbs_350/DM0829-403_350_350px.jpg",
@@ -407,7 +447,8 @@
     "short_description": "Muške patike za trening",
     "current_price": "8.899,00",
     "id": "DM0829-403",
-    "stock": 73
+    "stock": 2,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/687/687977-111/images/thumbs_350/687977-111_350_350px.jpg",
@@ -417,7 +458,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "13.299,00",
     "id": "687977-111",
-    "stock": 121
+    "stock": 81,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/687/687977-020/images/thumbs_350/687977-020_350_350px.jpg",
@@ -427,7 +469,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "13.299,00",
     "id": "687977-020",
-    "stock": 72
+    "stock": 87,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DJ7/DJ7883-104/images/thumbs_350/DJ7883-104_350_350px.jpg",
@@ -437,7 +480,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "12.999,00",
     "id": "DJ7883-104",
-    "stock": 36
+    "stock": 10,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM0/DM0829-013/images/thumbs_350/DM0829-013_350_350px.jpg",
@@ -447,7 +491,8 @@
     "short_description": "Muške patike za trening",
     "current_price": "8.959,20",
     "id": "DM0829-013",
-    "stock": 0
+    "stock": 77,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DR2/DR2665-006/images/thumbs_350/DR2665-006_350_350px.jpg",
@@ -457,7 +502,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "17.599,20",
     "id": "DR2665-006",
-    "stock": 64
+    "stock": 38,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CD1/CD1515-004/images/thumbs_350/CD1515-004_350_350px.jpg",
@@ -467,7 +513,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "10.999,00",
     "id": "CD1515-004",
-    "stock": 82
+    "stock": 28,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN7/FN7304-001/images/thumbs_350/FN7304-001_350_350px.jpg",
@@ -477,7 +524,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "11.999,00",
     "id": "FN7304-001",
-    "stock": 14
+    "stock": 90,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG3/IG3319/images/thumbs_350/IG3319_350_350px.jpg",
@@ -487,7 +535,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "13.999,00",
     "id": "IG3319",
-    "stock": 0
+    "stock": 21,
+    "discount": 26
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/580/580518-011/images/thumbs_350/580518-011_350_350px.jpg",
@@ -497,7 +546,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "13.439,21",
     "id": "580518-011",
-    "stock": 44
+    "stock": 112,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID7/ID7754/images/thumbs_350/ID7754_350_350px.jpg",
@@ -507,7 +557,8 @@
     "short_description": "Ženske outdoor patike",
     "current_price": "8.999,00",
     "id": "ID7754",
-    "stock": 50
+    "stock": 99,
+    "discount": 30
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CW4/CW4555-015/images/thumbs_350/CW4555-015_350_350px.jpg",
@@ -517,7 +568,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "9.499,00",
     "id": "CW4555-015",
-    "stock": 78
+    "stock": 109,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DR2/DR2665-402/images/thumbs_350/DR2665-402_350_350px.jpg",
@@ -527,7 +579,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "16.999,00",
     "id": "DR2665-402",
-    "stock": 98
+    "stock": 43,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF1/IF1548/images/thumbs_350/IF1548_350_350px.jpg",
@@ -537,7 +590,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "11.499,00",
     "id": "IF1548",
-    "stock": 100
+    "stock": 124,
+    "discount": 31
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB2/FB2207-005/images/thumbs_350/FB2207-005_350_350px.jpg",
@@ -547,7 +601,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "6.799,00",
     "id": "FB2207-005",
-    "stock": 59
+    "stock": 48,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GY5/GY5427/images/thumbs_350/GY5427_350_350px.jpg",
@@ -557,7 +612,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "6.199,00",
     "id": "GY5427",
-    "stock": 81
+    "stock": 16,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/394/394055-101/images/thumbs_350/394055-101_350_350px.jpg",
@@ -567,7 +623,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "8.399,00",
     "id": "394055-101",
-    "stock": 109
+    "stock": 1,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG3/IG3584/images/thumbs_350/IG3584_350_350px.jpg",
@@ -577,7 +634,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "7.649,10",
     "id": "IG3584",
-    "stock": 92
+    "stock": 51,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FQ8/FQ8109-331/images/thumbs_350/FQ8109-331_350_350px.jpg",
@@ -587,7 +645,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "26.319,19",
     "id": "FQ8109-331",
-    "stock": 26
+    "stock": 51,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DH2/DH2987-101/images/thumbs_350/DH2987-101_350_350px.jpg",
@@ -597,7 +656,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "7.999,00",
     "id": "DH2987-101",
-    "stock": 51
+    "stock": 16,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DR2/DR2615-105/images/thumbs_350/DR2615-105_350_350px.jpg",
@@ -607,7 +667,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "19.679,21",
     "id": "DR2615-105",
-    "stock": 45
+    "stock": 53,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DH2/DH2987-100/images/thumbs_350/DH2987-100_350_350px.jpg",
@@ -617,7 +678,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "7.999,00",
     "id": "DH2987-100",
-    "stock": 7
+    "stock": 98,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/580/580518-106/images/thumbs_350/580518-106_350_350px.jpg",
@@ -627,7 +689,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "13.439,21",
     "id": "580518-106",
-    "stock": 104
+    "stock": 5,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FJ2/FJ2594-001/images/thumbs_350/FJ2594-001_350_350px.jpg",
@@ -637,7 +700,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "10.099,00",
     "id": "FJ2594-001",
-    "stock": 38
+    "stock": 38,
+    "discount": 28
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID3/ID3489/images/thumbs_350/ID3489_350_350px.jpg",
@@ -647,7 +711,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "19.999,00",
     "id": "ID3489",
-    "stock": 36
+    "stock": 34,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CK2/CK2944-400/images/thumbs_350/CK2944-400_350_350px.jpg",
@@ -657,7 +722,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "7.109,10",
     "id": "CK2944-400",
-    "stock": 127
+    "stock": 8,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG3/IG3321/images/thumbs_350/IG3321_350_350px.jpg",
@@ -667,7 +733,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "14.999,00",
     "id": "IG3321",
-    "stock": 59
+    "stock": 88,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM0/DM0823-011/images/thumbs_350/DM0823-011_350_350px.jpg",
@@ -677,7 +744,8 @@
     "short_description": "Muške patike za trening",
     "current_price": "7.899,00",
     "id": "DM0823-011",
-    "stock": 41
+    "stock": 24,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DV3/DV3853-006/images/thumbs_350/DV3853-006_350_350px.jpg",
@@ -687,7 +755,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "12.999,00",
     "id": "DV3853-006",
-    "stock": 48
+    "stock": 87,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FD2/FD2291-401/images/thumbs_350/FD2291-401_350_350px.jpg",
@@ -697,7 +766,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "9.499,00",
     "id": "FD2291-401",
-    "stock": 57
+    "stock": 6,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID2/ID2635/images/thumbs_350/ID2635_350_350px.jpg",
@@ -707,7 +777,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "10.999,00",
     "id": "ID2635",
-    "stock": 59
+    "stock": 64,
+    "discount": 34
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CW4/CW4555-002/images/thumbs_350/CW4555-002_350_350px.jpg",
@@ -717,7 +788,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "9.499,00",
     "id": "CW4555-002",
-    "stock": 122
+    "stock": 48,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF0/IF0954/images/thumbs_350/IF0954_350_350px.jpg",
@@ -727,7 +799,8 @@
     "short_description": "Muške patike za trening",
     "current_price": "6.029,10",
     "id": "IF0954",
-    "stock": 35
+    "stock": 4,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DM8/DM8968-101/images/thumbs_350/DM8968-101_350_350px.jpg",
@@ -737,7 +810,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "17.599,20",
     "id": "DM8968-101",
-    "stock": 32
+    "stock": 39,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GW4/GW4138/images/thumbs_350/GW4138_350_350px.jpg",
@@ -747,7 +821,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "4.999,00",
     "id": "GW4138",
-    "stock": 11
+    "stock": 121,
+    "discount": 24
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FB2/FB2067-403/images/thumbs_350/FB2067-403_350_350px.jpg",
@@ -757,7 +832,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "10.999,00",
     "id": "FB2067-403",
-    "stock": 38
+    "stock": 119,
+    "discount": 26
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG8/IG8985/images/thumbs_350/IG8985_350_350px.jpg",
@@ -767,7 +843,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "18.999,00",
     "id": "IG8985",
-    "stock": 74
+    "stock": 127,
+    "discount": 26
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF0/IF0960/images/thumbs_350/IF0960_350_350px.jpg",
@@ -777,7 +854,8 @@
     "short_description": "Muške patike za trening",
     "current_price": "9.269,10",
     "id": "IF0960",
-    "stock": 14
+    "stock": 49,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID9/ID9849/images/thumbs_350/ID9849_350_350px.jpg",
@@ -787,7 +865,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "5.999,00",
     "id": "ID9849",
-    "stock": 95
+    "stock": 104,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IE5/IE5475/images/thumbs_350/IE5475_350_350px.jpg",
@@ -797,7 +876,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "7.499,00",
     "id": "IE5475",
-    "stock": 18
+    "stock": 98,
+    "discount": 30
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IE5/IE5476/images/thumbs_350/IE5476_350_350px.jpg",
@@ -807,7 +887,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "8.499,00",
     "id": "IE5476",
-    "stock": 104
+    "stock": 35,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GW4/GW4139/images/thumbs_350/GW4139_350_350px.jpg",
@@ -817,7 +898,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "4.999,00",
     "id": "GW4139",
-    "stock": 61
+    "stock": 8,
+    "discount": 24
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID7/ID7249/images/thumbs_350/ID7249_350_350px.jpg",
@@ -827,7 +909,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "14.999,00",
     "id": "ID7249",
-    "stock": 68
+    "stock": 14,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG3/IG3114/images/thumbs_350/IG3114_350_350px.jpg",
@@ -837,7 +920,8 @@
     "short_description": "Muške patike za tenis",
     "current_price": "13.999,00",
     "id": "IG3114",
-    "stock": 127
+    "stock": 22,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG1/IG1179/images/thumbs_350/IG1179_350_350px.jpg",
@@ -847,7 +931,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "5.699,00",
     "id": "IG1179",
-    "stock": 16
+    "stock": 28,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GZ0/GZ0069/images/thumbs_350/GZ0069_350_350px.jpg",
@@ -857,7 +942,8 @@
     "short_description": "Muške patike za indoor",
     "current_price": "5.999,00",
     "id": "GZ0069",
-    "stock": 4
+    "stock": 125,
+    "discount": 28
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/HP2/HP2255/images/thumbs_350/HP2255_350_350px.jpg",
@@ -867,7 +953,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "5.699,00",
     "id": "HP2255",
-    "stock": 6
+    "stock": 50,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FZ4/FZ4658/images/thumbs_350/FZ4658_350_350px.jpg",
@@ -877,7 +964,8 @@
     "short_description": "Muške patike za indoor",
     "current_price": "6.029,10",
     "id": "FZ4658",
-    "stock": 44
+    "stock": 39,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GX3/GX3090/images/thumbs_350/GX3090_350_350px.jpg",
@@ -887,7 +975,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "6.699,00",
     "id": "GX3090",
-    "stock": 49
+    "stock": 115,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/EG2/EG2654/images/thumbs_350/EG2654_350_350px.jpg",
@@ -897,7 +986,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "5.799,00",
     "id": "EG2654",
-    "stock": 60
+    "stock": 63,
+    "discount": 25
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/GY5/GY5432/images/thumbs_350/GY5432_350_350px.jpg",
@@ -907,7 +997,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "6.199,00",
     "id": "GY5432",
-    "stock": 39
+    "stock": 77,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/EG2/EG2655/images/thumbs_350/EG2655_350_350px.jpg",
@@ -917,7 +1008,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "5.799,00",
     "id": "EG2655",
-    "stock": 106
+    "stock": 40,
+    "discount": 25
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/HP6/HP6007/images/thumbs_350/HP6007_350_350px.jpg",
@@ -927,7 +1019,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "5.199,00",
     "id": "HP6007",
-    "stock": 127
+    "stock": 50,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/HP6/HP6002/images/thumbs_350/HP6002_350_350px.jpg",
@@ -937,7 +1030,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "5.199,00",
     "id": "HP6002",
-    "stock": 80
+    "stock": 44,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG7/IG7318/images/thumbs_350/IG7318_350_350px.jpg",
@@ -947,7 +1041,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "8.499,00",
     "id": "IG7318",
-    "stock": 43
+    "stock": 76,
+    "discount": 29
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/HP6/HP6139/images/thumbs_350/HP6139_350_350px.jpg",
@@ -957,7 +1052,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "8.499,00",
     "id": "HP6139",
-    "stock": 115
+    "stock": 97,
+    "discount": 29
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF7/IF7290/images/thumbs_350/IF7290_350_350px.jpg",
@@ -967,7 +1063,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "6.999,00",
     "id": "IF7290",
-    "stock": 87
+    "stock": 10,
+    "discount": 22
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/118/118034-BBK/images/thumbs_350/118034-BBK_350_350px.jpg",
@@ -977,7 +1074,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "5.759,10",
     "id": "118034-BBK",
-    "stock": 37
+    "stock": 102,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID9/ID9658/images/thumbs_350/ID9658_350_350px.jpg",
@@ -987,7 +1085,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "6.299,00",
     "id": "ID9658",
-    "stock": 113
+    "stock": 53,
+    "discount": 30
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/120/1202A024-100/images/thumbs_350/1202A024-100_350_350px.jpg",
@@ -997,7 +1096,8 @@
     "short_description": "Ženske lifestyle patike",
     "current_price": "7.919,10",
     "id": "1202A024-100",
-    "stock": 73
+    "stock": 107,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/568/568498C/images/thumbs_350/568498C_350_350px.jpg",
@@ -1007,7 +1107,8 @@
     "short_description": "Ženske lifestyle patike",
     "current_price": "8.399,00",
     "id": "568498C",
-    "stock": 54
+    "stock": 5,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF4/IF4029/images/thumbs_350/IF4029_350_350px.jpg",
@@ -1017,7 +1118,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "4.999,00",
     "id": "IF4029",
-    "stock": 86
+    "stock": 56,
+    "discount": 30
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/ID5/ID5279/images/thumbs_350/ID5279_350_350px.jpg",
@@ -1027,7 +1129,8 @@
     "short_description": "Patike za bebe",
     "current_price": "3.299,00",
     "id": "ID5279",
-    "stock": 68
+    "stock": 37,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/100/100074911/images/thumbs_350/100074911_350_350px.jpg",
@@ -1037,7 +1140,8 @@
     "short_description": "Patike za trčanje za odrasle",
     "current_price": "6.699,00",
     "id": "100074911",
-    "stock": 4
+    "stock": 84,
+    "discount": 28
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/120/1203A289-102/images/thumbs_350/1203A289-102_350_350px.jpg",
@@ -1047,7 +1151,8 @@
     "short_description": "Lifestyle patike za odrasle",
     "current_price": "9.999,19",
     "id": "1203A289-102",
-    "stock": 5
+    "stock": 23,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IG8/IG8018/images/thumbs_350/IG8018_350_350px.jpg",
@@ -1057,7 +1162,8 @@
     "short_description": "Muške outdoor patike",
     "current_price": "10.499,00",
     "id": "IG8018",
-    "stock": 32
+    "stock": 127,
+    "discount": 41
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/VN0/VN0A3WKZNWH/images/thumbs_350/VN0A3WKZNWH_350_350px.jpg",
@@ -1067,7 +1173,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "5.399,00",
     "id": "VN0A3WKZNWH",
-    "stock": 122
+    "stock": 54,
+    "discount": 29
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CHF/CHF241M121-03/images/thumbs_350/CHF241M121-03_350_350px.jpg",
@@ -1077,7 +1184,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "3.999,00",
     "id": "CHF241M121-03",
-    "stock": 66
+    "stock": 93,
+    "discount": 33
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/L47/L47458800/images/thumbs_350/L47458800_350_350px.jpg",
@@ -1087,7 +1195,8 @@
     "short_description": "Ženske outdoor patike",
     "current_price": "11.699,00",
     "id": "L47458800",
-    "stock": 104
+    "stock": 87,
+    "discount": 25
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FJ7/FJ7195-300/images/thumbs_350/FJ7195-300_350_350px.jpg",
@@ -1097,7 +1206,8 @@
     "short_description": "Patike za fudbal za tinejdžere",
     "current_price": "7.999,00",
     "id": "FJ7195-300",
-    "stock": 123
+    "stock": 5,
+    "discount": 23
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CHF/CHF241M100-62/images/thumbs_350/CHF241M100-62_350_350px.jpg",
@@ -1107,7 +1217,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "2.799,19",
     "id": "CHF241M100-62",
-    "stock": 78
+    "stock": 45,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/J1G/J1GC230302/images/thumbs_350/J1GC230302_350_350px.jpg",
@@ -1117,7 +1228,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "14.999,00",
     "id": "J1GC230302",
-    "stock": 7
+    "stock": 4,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IE5/IE5477/images/thumbs_350/IE5477_350_350px.jpg",
@@ -1127,7 +1239,8 @@
     "short_description": "Muške patike za trčanje",
     "current_price": "7.649,10",
     "id": "IE5477",
-    "stock": 48
+    "stock": 76,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/STM/STM417025-0122/images/thumbs_350/STM417025-0122_350_350px.jpg",
@@ -1137,7 +1250,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "3.839,21",
     "id": "STM417025-0122",
-    "stock": 98
+    "stock": 49,
+    "discount": 0
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/DR0/DR0675-110/images/thumbs_350/DR0675-110_350_350px.jpg",
@@ -1147,7 +1261,8 @@
     "short_description": "Muške patike za košarku",
     "current_price": "13.499,00",
     "id": "DR0675-110",
-    "stock": 119
+    "stock": 94,
+    "discount": 31
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/VN0/VN0A5FCB1N6/images/thumbs_350/VN0A5FCB1N6_350_350px.jpg",
@@ -1157,7 +1272,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "7.199,00",
     "id": "VN0A5FCB1N6",
-    "stock": 72
+    "stock": 116,
+    "discount": 28
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/L47/L47466000/images/thumbs_350/L47466000_350_350px.jpg",
@@ -1167,7 +1283,8 @@
     "short_description": "Ženske outdoor patike",
     "current_price": "14.399,00",
     "id": "L47466000",
-    "stock": 110
+    "stock": 117,
+    "discount": 20
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/FN0/FN0136-001/images/thumbs_350/FN0136-001_350_350px.jpg",
@@ -1177,7 +1294,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "11.199,00",
     "id": "FN0136-001",
-    "stock": 15
+    "stock": 107,
+    "discount": 21
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/CHF/CHF241M119-02/images/thumbs_350/CHF241M119-02_350_350px.jpg",
@@ -1187,7 +1305,8 @@
     "short_description": "Muške lifestyle patike",
     "current_price": "3.999,00",
     "id": "CHF241M119-02",
-    "stock": 113
+    "stock": 48,
+    "discount": 42
   },
   {
     "image_url": "https://sportvision.rs/files/thumbs/files/images/slike_proizvoda/media/IF0/IF0681/images/thumbs_350/IF0681_350_350px.jpg",
@@ -1197,6 +1316,7 @@
     "short_description": "Uniseks patike za decu",
     "current_price": "6.499,00",
     "id": "IF0681",
-    "stock": 32
+    "stock": 45,
+    "discount": 22
   }
 ]

@@ -1,5 +1,5 @@
 header {
-  height: 8vh;
+  height: 4.6em;
   background-color: #003366;
   position: fixed;
   top: 0;
@@ -14,10 +14,10 @@ header {
     left: 0;
     display: flex;
     height: 100%;
-    padding-top: 1vh;
+    padding-top: 0.575em;
 
     img {
-      height: 6vh;
+      height: 1.3em;
     }
   }
 
@@ -60,7 +60,9 @@ header {
   .cart {
     position: relative;
     color: #fff;
-    font-size: 3vh;
+    font-size: 1.725em;
+    display: flex;
+    align-content: center;
   }
 
   .reddot {

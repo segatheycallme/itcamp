@@ -16,7 +16,7 @@ export default function Products({ products, fallback_desc }) {
           {products.slice(page * elementsPerPage - elementsPerPage, page * elementsPerPage).map((el) => {
             return (
               <Grid.Col span={4} >
-                <ProductCard image={el.image_url} title={el.title} desc={el.short_description ? el.short_description : fallback_desc} cost={el.current_price} id={el.id} stock={el.stock} />
+                <ProductCard image={el.image_url} title={el.title} desc={el.short_description ? el.short_description : fallback_desc} cost={el.current_price} id={el.id} stock={el.stock} discount={el.discount} />
               </Grid.Col>
             )
           })}
