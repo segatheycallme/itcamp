@@ -6,7 +6,6 @@ import { useState } from "react"
 export default function Products({ products, fallback_desc }) {
   const elementsPerPage = 6
   const numOfPages = Math.ceil(products.length / elementsPerPage) - 1
-  console.log(numOfPages)
   const [page, setPage] = useState(1);
 
   return (
@@ -15,7 +14,7 @@ export default function Products({ products, fallback_desc }) {
         <Grid grow className="products-grid" w={1200} mt="md">
           {products.slice(page * elementsPerPage - elementsPerPage, page * elementsPerPage).map((el) => {
             return (
-              <Grid.Col span={4} >
+              <Grid.Col span={4} key={el.id} >
                 <ProductCard image={el.image_url} title={el.title} desc={el.short_description ? el.short_description : fallback_desc} cost={el.current_price} id={el.id} stock={el.stock} discount={el.discount} />
               </Grid.Col>
             )

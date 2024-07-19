@@ -10,6 +10,7 @@ import { createContext, useState } from 'react'
 import sportswear from './common/sportswear.json'
 import footwear from './common/footwear.json'
 import socks from './common/socks.json'
+import Cart from './pages/Cart/Cart'
 
 export const context = createContext()
 
@@ -26,6 +27,7 @@ export default function App() {
             <Route path="/sportswear" element={<Products products={sportswear} fallback_desc="Odeca" />} />
             <Route path="/footwear" element={<Products products={footwear} fallback_desc="Patike" />} />
             <Route path="/socks" element={<Products products={socks} fallback_desc="Čarape" />} />
+            <Route path="/cart" element={<Cart />} />
           </Routes>
         </main>
         <Footer />
