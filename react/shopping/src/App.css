@@ -10,3 +10,11 @@ main {
   margin-top: 4.6em;
   min-height: 80vh;
 }
+
+.notif {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  z-index: 2;
+}

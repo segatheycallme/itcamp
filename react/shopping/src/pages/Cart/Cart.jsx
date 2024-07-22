@@ -1,40 +1,65 @@
-import { Button, Container, createTheme, Flex, Image, MantineProvider, MantineThemeProvider, Paper, Space, Stack, Text } from "@mantine/core";
+import { Button, Center, Container, Flex, Image, Paper, Space, Stack, Text } from "@mantine/core";
 import { useContext } from "react";
 import { context } from "../../App";
+import { useState } from 'react'
+import { formatPrice } from "../../utils/formattedPrice";
 
-function Desktop({ el, setCartItems, grisine }) {
+function CartCard({ el, setCartItems, scale }) {
+  const [forceRefresh, setForceRefresh] = useState(false)
   return (
     <Paper bg="#f5f5f5" p="sm">
       <Flex>
-        <Flex align="center" gap={10 * grisine} w="60%">
-          <Image src={el.image} h={130 * grisine} w={130 * grisine} />
-          <Space w={50 * grisine} />
+        <Flex align="center" gap={10 * scale} w="60%">
+          <Image src={el.image} h={130 * scale} w={130 * scale} />
+          <Space w={50 * scale} />
           <div>
-            <Text c="dimmed" fz={16 * grisine}>
+            <Text c="dimmed" fz={16 * scale}>
               {el.desc}
             </Text>
-            <Text fw={500} fz={20 * grisine}>
+            <Text fw={500} fz={20 * scale}>
               {el.title}
             </Text>
           </div>
         </Flex>
-        <Flex justify="flex-end" align="center" w="40%" gap={20 * grisine}>
+        <Flex justify="flex-end" align="center" w="40%" gap={20 * scale}>
           <div>
-            <Text fz={18 * grisine}>{el.price.toFixed(2)}</Text>
-            <Text c="dimmed" fz={14 * grisine}>x{el.count} = {(el.price * el.count).toFixed(2)}</Text>
+            <Text fz={18 * scale}>{formatPrice(el.price)}</Text>
+            <Text c="dimmed" fz={14 * scale}>x{el.count} = {formatPrice(el.price * el.count)}</Text>
           </div>
-          <Button color="#f47422" fz={14 * grisine} px={18 * grisine} ps={18 * grisine} pe={18 * grisine} onClick={() => {
-            setCartItems((prev) => prev.toSpliced(prev.indexOf(el), 1))
-          }}>REMOVE ALL</Button>
+          <div>
+            <Center>
+              <Button disabled={el.count >= el.stock} fz={14 * scale} px={12 * scale} ps={12 * scale} pe={12 * scale} h={25} mb={10} color="#f47422" onClick={() => {
+                el.count++
+                setForceRefresh(!forceRefresh)
+              }}>+</Button>
+            </Center>
+            <Center>
+              <Text fz={18 * scale}>{el.count}</Text>
+            </Center>
+            <Center>
+              <Button fz={14 * scale} px={12 * scale} ps={12 * scale} pe={12 * scale} h={25} mt={10} color="#f47422" onClick={() => {
+                if (el.count < 2) {
+                  setCartItems((prev) => prev.filter((el) => el.id !== item.id))
+                } else {
+                  el.count--
+                  setForceRefresh(!forceRefresh)
+                }
+              }}>-</Button>
+            </Center>
+          </div>
         </Flex>
+        <Space w={30 * scale} />
       </Flex>
     </Paper >
   )
+  // <Button color="#f47422" fz={14 * scale} px={18 * scale} ps={18 * scale} pe={18 * scale} onClick={() => {
+  //   setCartItems((prev) => prev.toSpliced(prev.indexOf(el), 1))
+  // }}>REMOVE ALL</Button>
 }
 
 export default function Cart() {
   const [cartItems, setCartItems] = useContext(context)
-  let grisine = Math.min(window.innerWidth, 800) / 800
+  let scale = Math.min(window.innerWidth, 800) / 800
   return (
     <Container size="md" mt="xl">
       <Stack>
@@ -43,7 +68,7 @@ export default function Cart() {
           cartItems
             .map((el) => {
               return (
-                <Desktop el={el} setCartItems={setCartItems} grisine={grisine} />
+                <CartCard el={el} setCartItems={setCartItems} scale={scale} />
               )
             })
           :

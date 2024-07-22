@@ -2,6 +2,8 @@ import { FaShoppingCart } from "react-icons/fa"
 import { Button, Card, Center, Image, Text } from '@mantine/core'
 import { useContext, useState } from "react"
 import { context } from "../../App"
+import { notifications } from "@mantine/notifications";
+import { formatPrice } from "../../utils/formattedPrice";
 
 export default function ProductCard(props) {
   let item = { ...props, count: 1, discountedPrice: 0 };
@@ -35,8 +37,8 @@ export default function ProductCard(props) {
       </Text>
       <Text fw={800} size="xl" ml="sm">
         {item.discount ?
-          <><span style={{ color: "#f44910" }}>{item.price.toFixed(2)}</span> <strike style={{ color: "#aaa", fontSize: "0.8em", marginLeft: "0.4em" }}>{price.toFixed(2)}</strike></>
-          : price.toFixed(2)
+          <><span style={{ color: "#f44910" }}>{formatPrice(item.price)}</span> <strike style={{ color: "#aaa", fontSize: "0.8em", marginLeft: "0.4em" }}>{formatPrice(price)}</strike></>
+          : formatPrice(price)
         }
       </Text>
 
@@ -45,20 +47,21 @@ export default function ProductCard(props) {
           <>
             <Button m="lg" color='#f47422' onClick={() => {
               if (itemInContext.count < 2) {
-                setCartItems((prev) => prev.toSpliced(prev.indexOf(item), 1))
+                setCartItems((prev) => prev.filter((el) => el.id !== item.id))
               } else {
                 itemInContext.count--
                 setForceRefresh(!forceRefresh)
               }
             }}>-</Button>
             <Text size="xl">{itemInContext.count}</Text>
-            <Button m="lg" color='#f47422' onClick={() => {
+            <Button m="lg" color='#f47422' disabled={itemInContext.count >= itemInContext.stock} onClick={() => {
               itemInContext.count++
               setForceRefresh(!forceRefresh)
             }}>+</Button>
           </>
           :
           <Button w="50%" justify="space-between" my="lg" color='#f47422' leftSection={icon} rightSection=" " onClick={() => {
+            notifications.show({ title: "Added item to cart!", fz: "xl", color: "#f47422" })
             setCartItems((prev) => [...prev, item])
           }
           }>ADD TO CART</Button>

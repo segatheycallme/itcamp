@@ -11,6 +11,7 @@ import sportswear from './common/sportswear.json'
 import footwear from './common/footwear.json'
 import socks from './common/socks.json'
 import Cart from './pages/Cart/Cart'
+import { Notifications } from '@mantine/notifications'
 
 export const context = createContext()
 
@@ -30,6 +31,9 @@ export default function App() {
             <Route path="/cart" element={<Cart />} />
           </Routes>
         </main>
+        <div className="notif">
+          <Notifications withinPortal={false} position='bottom-center' />
+        </div>
         <Footer />
       </MantineProvider>
     </context.Provider>
