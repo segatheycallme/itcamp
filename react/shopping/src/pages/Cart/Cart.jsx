@@ -4,7 +4,7 @@ import { context } from "../../App";
 import { useState } from 'react'
 import { formatPrice } from "../../utils/formattedPrice";
 
-function CartCard({ el, setCartItems, scale }) {
+function CartCard({ el, setCartItems, scale, setModal }) {
   const [forceRefresh, setForceRefresh] = useState(false)
   return (
     <Paper bg="#f5f5f5" p="sm">
@@ -39,7 +39,12 @@ function CartCard({ el, setCartItems, scale }) {
             <Center>
               <Button fz={14 * scale} px={12 * scale} ps={12 * scale} pe={12 * scale} h={25} mt={10} color="#f47422" onClick={() => {
                 if (el.count < 2) {
-                  setCartItems((prev) => prev.filter((el) => el.id !== item.id))
+                  setModal({
+                    title: "Are you sure you want to remove this item from the cart?", confirm: () => {
+                      setCartItems((prev) => prev.filter((item) => el.id !== item.id))
+                      setModal({})
+                    }, cancel: () => { setModal({}) }
+                  })
                 } else {
                   el.count--
                   setForceRefresh(!forceRefresh)
@@ -57,7 +62,7 @@ function CartCard({ el, setCartItems, scale }) {
   // }}>REMOVE ALL</Button>
 }
 
-export default function Cart() {
+export default function Cart({ setModal }) {
   const [cartItems, setCartItems] = useContext(context)
   let scale = Math.min(window.innerWidth, 800) / 800
   return (
@@ -68,7 +73,7 @@ export default function Cart() {
           cartItems
             .map((el) => {
               return (
-                <CartCard el={el} setCartItems={setCartItems} scale={scale} />
+                <CartCard el={el} setCartItems={setCartItems} scale={scale} setModal={setModal} />
               )
             })
           :

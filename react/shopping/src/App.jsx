@@ -12,13 +12,17 @@ import footwear from './common/footwear.json'
 import socks from './common/socks.json'
 import Cart from './pages/Cart/Cart'
 import { Notifications } from '@mantine/notifications'
+import Modal from './components/Modal/Modal'
 
 export const context = createContext()
+export const modalContext = createContext()
 
 export default function App() {
   const val = useState([])
+  const [modal, setModal] = useState({});
   return (
     <context.Provider value={val}>
+      <Modal modal={modal} setModal={setModal} />
       <MantineProvider>
         <Header />
         <main>
@@ -28,7 +32,7 @@ export default function App() {
             <Route path="/sportswear" element={<Products products={sportswear} fallback_desc="Odeca" />} />
             <Route path="/footwear" element={<Products products={footwear} fallback_desc="Patike" />} />
             <Route path="/socks" element={<Products products={socks} fallback_desc="Čarape" />} />
-            <Route path="/cart" element={<Cart />} />
+            <Route path="/cart" element={<Cart setModal={setModal} />} />
           </Routes>
         </main>
         <div className="notif">
