@@ -47,7 +47,6 @@ export default function ProductCard(props) {
           <>
             <Button m="lg" color='#f47422' onClick={() => {
               if (itemInContext.count < 2) {
-                setCartItems((prev) => prev.filter((el) => el.id !== item.id))
               } else {
                 itemInContext.count--
                 setForceRefresh(!forceRefresh)

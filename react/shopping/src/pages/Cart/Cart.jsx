@@ -43,7 +43,7 @@ function CartCard({ el, setCartItems, scale, setModal, cartItems }) {
                   setModal({
                     title: "Are you sure you want to remove this item from the cart?", confirm: () => {
                       setCartItems((prev) => prev.filter((item) => el.id !== item.id))
-                      localStorage.setItem("cart", JSON.stringify(cartItems))
+                      setCartItems((prev) => { localStorage.setItem("cart", prev); return prev })
                       setModal({})
                     }, cancel: () => { setModal({}) }
                   })

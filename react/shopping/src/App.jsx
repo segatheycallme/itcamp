@@ -20,7 +20,10 @@ export const modalContext = createContext()
 export default function App() {
   const [cartItems, setCartItems] = useState([])
   useEffect(() => {
-    setCartItems(JSON.parse(localStorage.getItem("cart")))
+    const jsonCartItems = localStorage.getItem("cart")
+    if (jsonCartItems) {
+      setCartItems(JSON.parse(jsonCartItems))
+    }
   }, [])
 
   const val = [cartItems, setCartItems];
