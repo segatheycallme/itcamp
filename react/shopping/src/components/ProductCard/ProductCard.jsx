@@ -52,10 +52,12 @@ export default function ProductCard(props) {
                 itemInContext.count--
                 setForceRefresh(!forceRefresh)
               }
+              localStorage.setItem("cart", JSON.stringify(cartItems))
             }}>-</Button>
             <Text size="xl">{itemInContext.count}</Text>
             <Button m="lg" color='#f47422' disabled={itemInContext.count >= itemInContext.stock} onClick={() => {
               itemInContext.count++
+              localStorage.setItem("cart", JSON.stringify(cartItems))
               setForceRefresh(!forceRefresh)
             }}>+</Button>
           </>
@@ -63,6 +65,7 @@ export default function ProductCard(props) {
           <Button w="50%" justify="space-between" my="lg" color='#f47422' leftSection={icon} rightSection=" " onClick={() => {
             notifications.show({ title: "Added item to cart!", fz: "xl", color: "#f47422" })
             setCartItems((prev) => [...prev, item])
+            localStorage.setItem("cart", JSON.stringify(cartItems))
           }
           }>ADD TO CART</Button>
         }

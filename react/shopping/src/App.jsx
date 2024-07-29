@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
 import Products from './pages/Products/Products'
 import { MantineProvider } from '@mantine/core'
-import { createContext, useState } from 'react'
+import { createContext, useEffect, useState } from 'react'
 import sportswear from './common/sportswear.json'
 import footwear from './common/footwear.json'
 import socks from './common/socks.json'
@@ -18,7 +18,12 @@ export const context = createContext()
 export const modalContext = createContext()
 
 export default function App() {
-  const val = useState([])
+  const [cartItems, setCartItems] = useState([])
+  useEffect(() => {
+    setCartItems(JSON.parse(localStorage.getItem("cart")))
+  }, [])
+
+  const val = [cartItems, setCartItems];
   const [modal, setModal] = useState({});
   return (
     <context.Provider value={val}>
