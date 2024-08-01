@@ -1,0 +1,20 @@
+.quotes {
+  margin: 0rem auto;
+  padding: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination {
+  margin-top: 1rem;
+}
+
+.quotes-func {
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

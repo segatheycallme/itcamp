@@ -1,0 +1,148 @@
+.quote {
+  width: 65vw;
+  height: 8rem;
+  padding: 0.8rem;
+  background-color: #7ba798;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.2rem;
+}
+
+.left {
+  width: 12%;
+  height: 120%;
+  /* background-color: #7ba798; */
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  position: relative;
+  bottom: 0.7rem;
+}
+
+.right {
+  width: 85%;
+  height: 90%;
+  padding: 0.6rem;
+  background-color: #f0fffa;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.btn2 {
+  width: 1rem;
+  height: 1rem;
+  background-color: #7ba798;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.vote-class {
+  color: #f0fffa;
+}
+
+.upvote-class {
+  color: #93dd86;
+}
+
+.downvote-class {
+  color: #f58a8a;
+}
+
+.btn2:nth-of-type(1):active {
+  color: #93dd86;
+}
+
+.btn2:nth-of-type(2):active {
+  color: #f58a8a;
+}
+
+.percent {
+  font-size: 1.3rem;
+  position: relative;
+  top: 1rem;
+  left: 0.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.color1 {
+  color: #fe3c01;
+}
+
+.color2 {
+  color: #fea101;
+}
+
+.color3 {
+  color: #feed01;
+}
+
+.color4 {
+  color: #b2fe01;
+}
+
+.color5 {
+  color: #6ffe01;
+}
+
+.color6 {
+  color: #01d925;
+}
+
+.ratio {
+  position: relative;
+  top: 0.8rem;
+  z-index: 5;
+  color: #e4e7e6;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  font-size: small;
+  min-width: 5rem;
+  background-color: #4e7768;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+  color: #f0fffa;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+
+  /* Position the tooltip */
+  position: absolute;
+  top: 0.5rem;
+  left: -9rem;
+  z-index: 7;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
