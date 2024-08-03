@@ -1,0 +1,10 @@
+.vote {
+  background: none;
+  padding: 0.6em 0.525em 0.2em;
+  border: none;
+  border-radius: 50%;
+}
+
+.vote:hover {
+  background: #ddd;
+}
