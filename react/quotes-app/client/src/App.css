@@ -1,6 +1,8 @@
-.main-main {
-  min-height: 50vh;
-  background-image: url("./assets/back1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  margin: 0;
+}
+
+main {
+  background: var(--joy-palette-gradient-primary);
+  min-height: calc(100vh - 6em);
 }
