@@ -1,9 +1,8 @@
 header {
-
   height: 6em;
   padding: 0 2em;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #e3effb;
+  background: var(--joy-palette-primary-100);
 }

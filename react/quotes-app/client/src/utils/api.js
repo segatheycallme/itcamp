@@ -5,5 +5,5 @@ export async function logIn(username, password) {
 }
 
 export async function getQuotes(token) {
-  return await ky.get("http://localhost:8000/quotes", { headers: { Authorization: "Bearer " + token } }).json()
+  return await ky.get("http://localhost:8000/quotes", { headers: { Authorization: "Bearer " + token }, searchParams: { pageSize: 5 } }).json()
 }
