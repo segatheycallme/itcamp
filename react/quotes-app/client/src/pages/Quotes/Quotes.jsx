@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react"
-import { getQuotes } from "../../utils/api"
+import { getQuotes, vote } from "../../utils/api"
 import { userContext } from "../../App"
 import "./Quotes.css"
 import { Card, CardActions, CardContent, Divider, Stack, Typography } from "@mui/joy"
@@ -11,16 +11,16 @@ export default function Quotes() {
   const [quotes, setQuotes] = useState([])
   const [page, setPage] = useState(1)
   const [pageNum, setPageNum] = useState(0)
+  const [refresh, setRefresh] = useState(false)
 
   const QUOTES_PER_PAGE = 5
 
   useEffect(() => {
-    getQuotes(accessToken, QUOTES_PER_PAGE, page).then((v) => {
+    getQuotes(QUOTES_PER_PAGE, page, accessToken).then((v) => {
       setQuotes(v.quotes)
       setPageNum(Math.ceil(v.quotesCount / QUOTES_PER_PAGE))
     })
-  }, [page])
-
+  }, [page, refresh])
   return (
     <Stack justifyContent="start" gap="0.5em" alignItems="center" minHeight="calc(100vh - 7em)" pt="1em">
       {quotes.map((el) => {
@@ -34,13 +34,17 @@ export default function Quotes() {
           green = Math.round(400 * score)
         }
         return (
-          <Card variant="outlined" color="primary" sx={{ width: "calc(20% + 35em)", maxWidth: "90%", fontSize: "0.8em" }}>
+          <Card variant="outlined" color="primary" sx={{ width: "calc(20% + 35em)", maxWidth: "90%", fontSize: "0.8em" }} key={el.id}>
             <CardContent orientation="horizontal">
               <CardActions orientation="vertical" sx={{ width: "min-content", gap: 0, alignItems: "center", pt: 0 }}>
-                <button className="vote"><FaAngleUp color={el.givenVote === "upvote" ? "var(--joy-palette-primary-500)" : "black"} /></button>
-                <Typography fontSize="lg" fontWeight="bold" textAlign="center" textColor={`rgb(${red}, ${green}, 0)`}>{(score * 100).toFixed(2) + "%"}</Typography>
+                <button className="vote" onClick={() =>
+                  vote("upvote", el.givenVote, el.id, accessToken).finally(() => { setRefresh(!refresh) })
+                } ><FaAngleUp color={el.givenVote === "upvote" ? "var(--joy-palette-primary-500)" : "black"} /></button>
+                <Typography fontSize="lg" fontWeight="bold" textAlign="center" textColor={`rgb(${red}, ${green}, 0)`}>{Math.round(score * 100) + "%"}</Typography>
                 <Typography fontSize="sm" textAlign="center">{el.upvotesCount}/{el.downvotesCount}</Typography>
-                <button className="vote"><FaAngleDown color={el.givenVote === "downvote" ? "var(--joy-palette-primary-500)" : "black"} /></button>
+                <button className="vote" onClick={() => {
+                  vote("downvote", el.givenVote, el.id, accessToken).finally(() => { setRefresh(!refresh) })
+                }} ><FaAngleDown color={el.givenVote === "downvote" ? "var(--joy-palette-primary-500)" : "black"} /></button>
               </CardActions>
               <Divider orientation="vertical" />
               <Stack justifyContent="space-between" width="100%">
