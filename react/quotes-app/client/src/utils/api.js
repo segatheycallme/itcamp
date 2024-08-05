@@ -13,5 +13,7 @@ export async function vote(newVote, oldVote, id, token) {
   if (oldVote !== "none") {
     await ky.delete(BACKEND_IP + "/quotes/" + id + "/" + oldVote, { headers: { Authorization: "Bearer " + token } })
   }
-  await ky.post(BACKEND_IP + "/quotes/" + id + "/" + newVote, { headers: { Authorization: "Bearer " + token } })
+  if (oldVote !== newVote) {
+    await ky.post(BACKEND_IP + "/quotes/" + id + "/" + newVote, { headers: { Authorization: "Bearer " + token } })
+  }
 }

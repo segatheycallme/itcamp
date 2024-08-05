@@ -3,7 +3,7 @@ import { getQuotes, vote } from "../../utils/api"
 import { userContext } from "../../App"
 import "./Quotes.css"
 import { Card, CardActions, CardContent, Divider, Stack, Typography } from "@mui/joy"
-import { FaAngleUp, FaAngleDown } from 'react-icons/fa'
+import { FaAngleDoubleUp, FaAngleDoubleDown } from 'react-icons/fa'
 import Pagination from "../../components/Pagination/Pagination"
 
 export default function Quotes() {
@@ -21,6 +21,7 @@ export default function Quotes() {
       setPageNum(Math.ceil(v.quotesCount / QUOTES_PER_PAGE))
     })
   }, [page, refresh])
+
   return (
     <Stack justifyContent="start" gap="0.5em" alignItems="center" minHeight="calc(100vh - 7em)" pt="1em">
       {quotes.map((el) => {
@@ -39,12 +40,12 @@ export default function Quotes() {
               <CardActions orientation="vertical" sx={{ width: "min-content", gap: 0, alignItems: "center", pt: 0 }}>
                 <button className="vote" onClick={() =>
                   vote("upvote", el.givenVote, el.id, accessToken).finally(() => { setRefresh(!refresh) })
-                } ><FaAngleUp color={el.givenVote === "upvote" ? "var(--joy-palette-primary-500)" : "black"} /></button>
+                } ><FaAngleDoubleUp color={el.givenVote === "upvote" ? "var(--joy-palette-primary-500)" : "black"} /></button>
                 <Typography fontSize="lg" fontWeight="bold" textAlign="center" textColor={`rgb(${red}, ${green}, 0)`}>{Math.round(score * 100) + "%"}</Typography>
                 <Typography fontSize="sm" textAlign="center">{el.upvotesCount}/{el.downvotesCount}</Typography>
                 <button className="vote" onClick={() => {
                   vote("downvote", el.givenVote, el.id, accessToken).finally(() => { setRefresh(!refresh) })
-                }} ><FaAngleDown color={el.givenVote === "downvote" ? "var(--joy-palette-primary-500)" : "black"} /></button>
+                }} ><FaAngleDoubleDown color={el.givenVote === "downvote" ? "var(--joy-palette-primary-500)" : "black"} /></button>
               </CardActions>
               <Divider orientation="vertical" />
               <Stack justifyContent="space-between" width="100%">
