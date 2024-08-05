@@ -4,18 +4,25 @@ import { userContext } from "../../App"
 import "./Quotes.css"
 import { Card, CardActions, CardContent, Divider, Stack, Typography } from "@mui/joy"
 import { FaAngleUp, FaAngleDown } from 'react-icons/fa'
+import Pagination from "../../components/Pagination/Pagination"
 
 export default function Quotes() {
   const { accessToken } = useContext(userContext)
   const [quotes, setQuotes] = useState([])
-  console.log(quotes)
+  const [page, setPage] = useState(1)
+  const [pageNum, setPageNum] = useState(0)
+
+  const QUOTES_PER_PAGE = 5
 
   useEffect(() => {
-    getQuotes(accessToken).then((v) => { setQuotes(v.quotes) })
-  }, [])
+    getQuotes(accessToken, QUOTES_PER_PAGE, page).then((v) => {
+      setQuotes(v.quotes)
+      setPageNum(Math.ceil(v.quotesCount / QUOTES_PER_PAGE))
+    })
+  }, [page])
 
   return (
-    <Stack justifyContent="start" gap="0.5em" alignItems="center" minHeight="calc(100vh - 6em)" py="1em">
+    <Stack justifyContent="start" gap="0.5em" alignItems="center" minHeight="calc(100vh - 7em)" pt="1em">
       {quotes.map((el) => {
         const score = el.upvotesCount / (el.upvotesCount + el.downvotesCount)
         let red, green;
@@ -27,7 +34,7 @@ export default function Quotes() {
           green = Math.round(400 * score)
         }
         return (
-          <Card variant="outlined" color="primary" sx={{ width: "calc(20% + 35em)", maxWidth: "90%" }}>
+          <Card variant="outlined" color="primary" sx={{ width: "calc(20% + 35em)", maxWidth: "90%", fontSize: "0.8em" }}>
             <CardContent orientation="horizontal">
               <CardActions orientation="vertical" sx={{ width: "min-content", gap: 0, alignItems: "center", pt: 0 }}>
                 <button className="vote"><FaAngleUp color={el.givenVote === "upvote" ? "var(--joy-palette-primary-500)" : "black"} /></button>
@@ -44,6 +51,7 @@ export default function Quotes() {
           </Card>
         )
       })}
+      <Pagination page={page} setPage={setPage} pageNum={pageNum} />
     </Stack>
   )
 }
