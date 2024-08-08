@@ -7,5 +7,5 @@
 }
 
 .vote:hover {
-  background: #ddd;
+  background: var(--joy-palette-neutral-200);
 }
