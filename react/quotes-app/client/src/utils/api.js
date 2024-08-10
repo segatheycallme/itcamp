@@ -5,8 +5,12 @@ export async function logIn(username, password) {
   return (await ky.post(BACKEND_IP + "/sessions", { json: { username, password } }).json()).accessToken
 }
 
-export async function getQuotes(pageSize, page, token) {
-  return await ky.get(BACKEND_IP + "/quotes", { headers: { Authorization: "Bearer " + token }, searchParams: { pageSize, page } }).json()
+export async function getQuotes(pageSize, page, token, filters) {
+  return await ky.get(BACKEND_IP + "/quotes", { headers: { Authorization: "Bearer " + token }, searchParams: { pageSize, page, ...filters } }).json()
+}
+
+export async function getTags(token) {
+  return await ky.get(BACKEND_IP + "/tags", { headers: { Authorization: "Bearer " + token } }).json()
 }
 
 export async function vote(newVote, oldVote, id, token) {
