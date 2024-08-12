@@ -33,7 +33,7 @@ export default function Quotes() {
     getTags(accessToken).then((v) => {
       setTags(v)
     })
-  }, [])
+  }, [refresh])
 
   return (
 
