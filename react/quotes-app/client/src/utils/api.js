@@ -21,3 +21,7 @@ export async function vote(newVote, oldVote, id, token) {
     await ky.post(BACKEND_IP + "/quotes/" + id + "/" + newVote, { headers: { Authorization: "Bearer " + token } })
   }
 }
+
+export async function submitQuote(author, quote, tags, token) {
+  await ky.post(BACKEND_IP + "/quotes", { json: { author, content: quote, tags }, headers: { Authorization: "Bearer " + token } })
+}

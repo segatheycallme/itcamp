@@ -3,7 +3,6 @@ import { Button, Stack } from "@mui/joy";
 export default function Pagination({ page, setPage, pageNum }) {
   const buttonSx = { aspectRatio: 1, borderRadius: "50%" }
   let pages;
-  console.log(pageNum)
   switch (pageNum) {
     case 1:
       pages = [1]

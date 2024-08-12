@@ -1,8 +1,8 @@
 import { useContext, useEffect, useState } from "react"
-import { getQuotes, getTags, vote } from "../../utils/api"
+import { getQuotes, getTags, submitQuote, vote } from "../../utils/api"
 import { userContext } from "../../App"
 import "./Quotes.css"
-import { Card, CardActions, CardContent, Divider, Option, Select, Stack, Typography } from "@mui/joy"
+import { Button, Card, CardActions, CardContent, DialogTitle, Divider, Input, Modal, ModalDialog, Option, Select, Stack, Typography } from "@mui/joy"
 import { FaAngleDoubleUp, FaAngleDoubleDown } from 'react-icons/fa'
 import Pagination from "../../components/Pagination/Pagination"
 
@@ -15,6 +15,11 @@ export default function Quotes() {
   const [pageNum, setPageNum] = useState(0)
   const [refresh, setRefresh] = useState(false)
   const [filters, setFilters] = useState({ sortDirection: "asc", sortBy: "upvotesCount" })
+
+  const [author, setAuthor] = useState("")
+  const [quote, setQuote] = useState("")
+  const [tagsString, setTagsString] = useState("")
+  const [open, setOpen] = useState(false)
 
   const QUOTES_PER_PAGE = 5
 
@@ -31,7 +36,32 @@ export default function Quotes() {
   }, [])
 
   return (
+
     <Stack justifyContent="start" gap="0.5em" alignItems="center" minHeight="calc(100vh - 7em)" pt="1em">
+      <Modal open={open} onClose={() => setOpen(false)}>
+        <ModalDialog>
+          <DialogTitle>Create new quote</DialogTitle>
+          <form onSubmit={(event) => {
+            event.preventDefault()
+            let newTags = tagsString.split(",")
+            newTags.forEach((el, i, arr) => arr[i] = el.trim())
+            submitQuote(author, quote, newTags.filter((el) => !tags.includes(el)), accessToken)
+            setOpen(false)
+            setAuthor("")
+            setQuote("")
+            setTagsString("")
+            setRefresh(!refresh)
+          }}>
+            <Input value={author} onChange={(event) => setAuthor(event.target.value)} required placeholder="Author" sx={{ m: "0.3em" }} />
+            <Input value={quote} onChange={(event) => setQuote(event.target.value)} required placeholder="Quote" sx={{ m: "0.3em" }} />
+            <Input value={tagsString} onChange={(event) => setTagsString(event.target.value)} required placeholder="Comma seperated tags" sx={{ m: "0.3em" }} />
+            <Stack direction="row" justifyContent="space-between" sx={{ mx: "0.3em", mt: "0.7em" }} >
+              <Button color="neutral" variant="outlined" onClick={() => setOpen(false)}>Cancel</Button>
+              <Button type="submit" color="primary" variant="outlined">Submit</Button>
+            </Stack>
+          </form>
+        </ModalDialog>
+      </Modal>
       <Stack direction="row" gap="1em">
         <Select defaultValue="asc" onChange={(event, val) => {
           event.preventDefault()
@@ -59,9 +89,15 @@ export default function Quotes() {
           <Option value={-1}>All tags</Option>
           {tags.map((el, i) => <Option value={i} key={i}>{el}</Option>)}
         </Select>
+        <Button variant="outlined" sx={{ bgcolor: "var(--joy-palette-background-surface)" }} onClick={() => {
+          setOpen(true)
+        }}>Add quote</Button>
       </Stack>
       {quotes.map((el) => {
-        const score = el.upvotesCount / (el.upvotesCount + el.downvotesCount)
+        let score = el.upvotesCount / (el.upvotesCount + el.downvotesCount)
+        if (isNaN(score)) {
+          score = 0;
+        }
         let red, green;
         if (score > 0.5) {
           red = Math.round((score - 1) * -400)
