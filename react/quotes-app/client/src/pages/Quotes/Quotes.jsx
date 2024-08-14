@@ -24,8 +24,10 @@ export default function Quotes() {
   const QUOTES_PER_PAGE = 5
 
   useEffect(() => {
+    const timeoutID = setTimeout(() => setPageNum(0), 100)
     getQuotes(QUOTES_PER_PAGE, page, accessToken, filters).then((v) => {
       setQuotes(v.quotes)
+      clearTimeout(timeoutID)
       setPageNum(Math.ceil(v.quotesCount / QUOTES_PER_PAGE))
     })
   }, [page, refresh, filters])
