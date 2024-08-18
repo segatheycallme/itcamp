@@ -16,23 +16,12 @@ use tokio::{
 use tower_http::cors::{Any, CorsLayer};
 #[tokio::main]
 async fn main() {
-    let mut users_file = File::open("./data/users.json").await.unwrap();
-    let mut users_json = String::new();
-    users_file.read_to_string(&mut users_json).await.unwrap();
-
-    let mut quotes_file = File::open("./data/quotes.json").await.unwrap();
-    let mut quotes_json = String::new();
-    quotes_file.read_to_string(&mut quotes_json).await.unwrap();
-
-    let mut tags_file = File::open("./data/tags.json").await.unwrap();
-    let mut tags_json = String::new();
-    tags_file.read_to_string(&mut tags_json).await.unwrap();
-
-    let state = Arc::new(Data {
-        users: serde_json::from_str(&users_json).unwrap(),
-        quotes: RwLock::new(serde_json::from_str(&quotes_json).unwrap()),
-        tags: RwLock::new(serde_json::from_str(&tags_json).unwrap()),
-    });
+    let files = (
+        "./data/users.json",
+        "./data/quotes.json",
+        "./data/tags.json",
+    );
+    let state = Arc::new(Data::new(files).await);
     let cors_layer = CorsLayer::new()
         .allow_methods(Any)
         .allow_headers(Any)
@@ -52,12 +41,13 @@ async fn main() {
     let listener = TcpListener::bind("0.0.0.0:8000").await.unwrap();
 
     axum::serve(listener, route)
-        .with_graceful_shutdown(kms(state))
+        .with_graceful_shutdown(kms(state, files))
         .await
         .unwrap();
 }
 
-async fn kms(_state: Arc<Data>) {
+async fn kms(state: Arc<Data>, (users_path, quotes_path, tags_path): (&str, &str, &str)) {
+    // waiting for a signal on port 22341
     TcpListener::bind("0.0.0.0:22341")
         .await
         .unwrap()
@@ -68,7 +58,23 @@ async fn kms(_state: Arc<Data>) {
         .shutdown()
         .await
         .unwrap();
-    // dbg!(state);
+
+    // writing to files
+    let mut users_file = File::create(users_path).await.unwrap();
+    let users_json = serde_json::to_string_pretty(&state.users).unwrap();
+    users_file
+        .write_all(&users_json.into_bytes())
+        .await
+        .unwrap();
+    let mut quotes_file = File::create(quotes_path).await.unwrap();
+    let quotes_json = serde_json::to_string_pretty(&state.quotes.write().await.clone()).unwrap();
+    quotes_file
+        .write_all(&quotes_json.into_bytes())
+        .await
+        .unwrap();
+    let mut tags_file = File::create(tags_path).await.unwrap();
+    let tags_json = serde_json::to_string_pretty(&state.tags.write().await.clone()).unwrap();
+    tags_file.write_all(&tags_json.into_bytes()).await.unwrap();
 }
 
 async fn hi() -> String {
@@ -349,7 +355,29 @@ struct Data {
     tags: RwLock<Vec<String>>,
 }
 
-#[derive(Deserialize, PartialEq, Debug)]
+impl Data {
+    async fn new((users_path, quotes_path, tags_path): (&str, &str, &str)) -> Data {
+        let mut users_file = File::open(users_path).await.unwrap();
+        let mut users_json = String::new();
+        users_file.read_to_string(&mut users_json).await.unwrap();
+
+        let mut quotes_file = File::open(quotes_path).await.unwrap();
+        let mut quotes_json = String::new();
+        quotes_file.read_to_string(&mut quotes_json).await.unwrap();
+
+        let mut tags_file = File::open(tags_path).await.unwrap();
+        let mut tags_json = String::new();
+        tags_file.read_to_string(&mut tags_json).await.unwrap();
+
+        Data {
+            users: serde_json::from_str(&users_json).unwrap(),
+            quotes: RwLock::new(serde_json::from_str(&quotes_json).unwrap()),
+            tags: RwLock::new(serde_json::from_str(&tags_json).unwrap()),
+        }
+    }
+}
+
+#[derive(Deserialize, Serialize, PartialEq, Debug)]
 struct User {
     password: String,
     username: String,
