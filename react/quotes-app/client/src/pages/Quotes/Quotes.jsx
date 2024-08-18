@@ -48,7 +48,7 @@ export default function Quotes() {
                 event.preventDefault()
                 let newTags = tagsString.split(",")
                 newTags.forEach((el, i, arr) => arr[i] = el.trim())
-                submitQuote(author, quote, newTags.filter((el) => !tags.includes(el)), accessToken)
+                submitQuote(author, quote, newTags, accessToken)
                 setOpen(false)
                 setAuthor("")
                 setQuote("")
