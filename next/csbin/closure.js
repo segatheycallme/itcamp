@@ -48,9 +48,9 @@ const jasCounter = outer();
 function addByX(x) {
   let counter = x; // this variable is outside incrementCounter's scope
   function incrementCounter(num) {
-    console.log('counter', counter + num);
+    return counter + num
   }
-  return incrementCounter;
+  return incrementCounter
 
 }
 
@@ -71,11 +71,12 @@ function addByX(x) {
 
 // CHALLENGE 4
 function once(func) {
-  let ran = ""
+  let ran = 0;
   return (num) => {
-    if (ran === "") {
-      ran = func()
+    if (ran === 0) {
+      ran = func(num)
     }
+    return ran
   }
 }
 
@@ -88,7 +89,13 @@ function once(func) {
 
 // CHALLENGE 5
 function after(count, func) {
-
+  let timesCalled = count
+  return () => {
+    timesCalled--
+    if (timesCalled <= 0) {
+      func()
+    }
+  }
 }
 
 // /*** Uncomment these to check your work! ***/
@@ -101,13 +108,20 @@ function after(count, func) {
 
 // CHALLENGE 6
 function delay(func, wait) {
-
+  setTimeout(func, wait)
 }
 
 
 // CHALLENGE 7
 function rollCall(names) {
-
+  let items = names
+  return () => {
+    if (items.length > 0) {
+      console.log(names.pop())
+    } else {
+      console.log("Everyone accounted for")
+    }
+  }
 }
 
 // /*** Uncomment these to check your work! ***/
@@ -120,7 +134,14 @@ function rollCall(names) {
 
 // CHALLENGE 8
 function saveOutput(func, magicWord) {
-
+  let obj = {}
+  return function(num) {
+    if (num === magicWord) {
+      return obj
+    }
+    obj[num] = func(num)
+    return obj[num]
+  }
 }
 
 // /*** Uncomment these to check your work! ***/
@@ -133,6 +154,12 @@ function saveOutput(func, magicWord) {
 
 // CHALLENGE 9
 function cycleIterator(array) {
+  let iter = array
+  let idx = 0
+  return function() {
+    idx = (idx + 1) % iter.length
+    return iter[idx]
+  }
 
 }
 
@@ -147,7 +174,10 @@ function cycleIterator(array) {
 
 // CHALLENGE 10
 function defineFirstArg(func, arg) {
-
+  let firstArg = arg
+  return function(secondArg) {
+    return func(firstArg, secondArg)
+  }
 }
 
 // /*** Uncomment these to check your work! ***/
@@ -158,6 +188,10 @@ function defineFirstArg(func, arg) {
 
 // CHALLENGE 11
 function dateStamp(func) {
+  let date = Date().toString()
+  return function(arg) {
+    return { date: date, output: func(arg) }
+  }
 
 }
 
