@@ -203,7 +203,16 @@ function dateStamp(func) {
 
 // CHALLENGE 12
 function censor() {
-
+  let obj = {}
+  return function(s, news) {
+    if (news === undefined) {
+      for (const [key, value] of Object.entries(obj)) {
+        s = s.replaceAll(key, value);
+      }
+      return s
+    }
+    obj[s] = news
+  }
 }
 
 // /*** Uncomment these to check your work! ***/
@@ -215,7 +224,11 @@ function censor() {
 
 // CHALLENGE 13
 function createSecretHolder(secret) {
-
+  return {
+    secret,
+    getSecret: function() { return this.secret },
+    setSecret: function(tajna) { this.secret = tajna }
+  }
 }
 
 // /*** Uncomment these to check your work! ***/
@@ -227,7 +240,8 @@ function createSecretHolder(secret) {
 
 // CHALLENGE 14
 function callTimes() {
-
+  let count = 0
+  return function() { return ++count }
 }
 
 // /*** Uncomment these to check your work! ***/
