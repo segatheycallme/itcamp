@@ -11,7 +11,17 @@ const users = [{ id: 1, name: 'John Doe' }];
 app.get('/users', (req, res) => res.json(users));
 
 // GET by id: Get user by id => HOMEWORK
+app.get('/users/:id', (req, res) => {
 
+  const id = parseInt(req.params.id);
+  const index = users.findIndex(user => user.id === id);
+
+  if (index !== -1) {
+    res.json(users[index]);
+  } else {
+    res.status(404).json({ error: `User with id ${id} not found` });
+  }
+})
 
 // POST: Create a new user
 app.post('/users', (req, res) => {
@@ -49,6 +59,19 @@ app.put('/users/:id', (req, res) => {
 
 
 // PATCH /users/:id - Partially Update User Object => HOMEWORK
+app.patch('/users/:id', (req, res) => {
+  const id = parseInt(req.params.id); // Extract the id from the route parameters
+  const index = users.findIndex(user => user.id === id); // Find the index of the user
+
+  if (index !== -1) {
+    if (req.body.name !== undefined) {
+      users[index].name = req.body.name;
+    }
+    res.json(users[index]); // Return the updated user
+  } else {
+    res.status(404).json({ error: `User with id ${id} not found` });
+  }
+});
 
 app.listen(3000, () => console.log('API running on http://localhost:3000'));
 
