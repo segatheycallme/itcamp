@@ -6,7 +6,7 @@ CREATE TABLE users (
 CREATE TABLE profile (
     profile_id INT PRIMARY KEY,
     description VARCHAR(1024) NOT NULL,
-    user_id INT NOT NULL,
+    user_id INT NOT NULL UNIQUE,
     FOREIGN KEY (user_id) REFERENCES users (user_id)
 );
 CREATE TABLE post (
