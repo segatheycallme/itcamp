@@ -1,39 +1,48 @@
 const db = require('./db');
-
 const initializeDatabase = async () => {
-    try {
-        const createTableQuery = `
-            CREATE TABLE IF NOT EXISTS Items (
-                id SERIAL PRIMARY KEY,
-                name VARCHAR(255) NOT NULL,
-                description TEXT
-            );
-        `;
+  try {
+    const createItemsTableQuery = `
+CREATE TABLE IF NOT EXISTS Items (
+id SERIAL PRIMARY KEY,
+name VARCHAR(255) NOT NULL,
+description TEXT
+);`;
+    const createUsersTableQuery = `
+CREATE TABLE IF NOT EXISTS Users (
+id SERIAL PRIMARY KEY,
+email VARCHAR(255) NOT NULL UNIQUE,
+password VARCHAR(255) NOT NULL
+);`;
 
-        // Execute the query
-        await db.query(createTableQuery);
-        console.log('Table "Items" has been created or already exists.');
+    // Execute the queries
+    await db.query(createItemsTableQuery);
+    await db.query(createUsersTableQuery);
+    console.log('Tables "Items" and "Users" have been created or already exist.');
+    // Clear data
+    await db.query(`TRUNCATE TABLE Items RESTART IDENTITY;`);
+    await db.query(`TRUNCATE TABLE Users RESTART IDENTITY;`);
+    console.log('Existing data in tables has been cleared.');
+    // Insert sample data
+    const seedItemsDataQuery = `
+INSERT INTO Items (name, description)
+VALUES
+('Sample Item 1', 'This is a sample item'),
+('Sample Item 2', 'This is another sample item');
+`;
+    const seedUsersDataQuery = `
+INSERT INTO Users (email, password)
+VALUES
+('user1@example.com', 'password1'),
+('user2@example.com', 'password2');`;
 
-        // Clear the table if it exists
-        const clearDataQuery = `TRUNCATE TABLE Items RESTART IDENTITY;`; // Clears the data and resets the ID sequence
-        await db.query(clearDataQuery);
-        console.log('Existing data in the "Items" table has been deleted.');
-
-        // Insert sample data
-        const seedDataQuery = `
-            INSERT INTO Items (name, description)
-            VALUES
-            ('Sample Item 1', 'This is a sample item'),
-            ('Sample Item 2', 'This is another sample item');
-        `;
-        await db.query(seedDataQuery);
-        console.log('Sample data has been added.');
-    } catch (error) {
-        console.error('Error initializing database:', error);
-    } finally {
-        await db.pool.end();
-        console.log('Database connection closed.');
-    }
+    await db.query(seedItemsDataQuery);
+    await db.query(seedUsersDataQuery);
+    console.log('Sample data has been added to tables.');
+  } catch (error) {
+    console.error('Error initializing database:', error);
+  } finally {
+    await db.pool.end();
+    console.log('Database connection closed.');
+  }
 };
-
 initializeDatabase();
