@@ -4,9 +4,9 @@ import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
 import { notFound } from "next/navigation";
 
-// Load a blog post dynamically
+// Load a project post dynamically
 const getPost = (slug: string) => {
-  const filePath = path.join(process.cwd(), "public/content/blog", `${slug}.md`);
+  const filePath = path.join(process.cwd(), "public/content/project", `${slug}.md`);
 
   if (!fs.existsSync(filePath)) {
     return null;
@@ -19,7 +19,7 @@ const getPost = (slug: string) => {
 
 // Next.js automatically calls this function to generate static pages
 export async function generateStaticParams() {
-  const contentDir = path.join(process.cwd(), "public/content/blog");
+  const contentDir = path.join(process.cwd(), "public/content/project");
   const filenames = fs.readdirSync(contentDir);
 
   return filenames.map((filename) => ({
@@ -27,10 +27,9 @@ export async function generateStaticParams() {
   }));
 }
 
-// Blog Post Page
-export default function BlogPost({ params }: { params: { slug: string } }) {
+// Project Post Page
+export default function ProjectPost({ params }: { params: { slug: string } }) {
   const post = getPost(params.slug);
-  console.log(params.slug);
   if (!post) return notFound();
 
   return (
